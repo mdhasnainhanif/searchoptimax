@@ -1,0 +1,2936 @@
+@media screen and (max-width: 1920px),
+screen and (max-height: 1080px) {
+    .main-banner {
+        padding: 280px 0px 90px 0px;
+    }
+
+    .col-md-4.bor-right {
+        height: 480px;
+    }
+
+    .container-fluid.v2 {
+        width: 80%;
+    }
+
+    .container-fluid.v2.color-bg {
+        padding: 400px 90px 70px 90px;
+    }
+
+    .tab-content.v3 {
+        padding: 30px 70px 0px 70px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1800px) {
+    .card-content>div {
+        width: calc(100vw - 1130px);
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    .card-content>div {
+        width: calc(100vw - 1085px);
+    }
+}
+
+@media only screen and (min-width: 1750px) and (max-width: 1900px) {
+    .whychooseus-img img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    a.navbar-brand {
+        width: 15%;
+    }
+
+    div#navbarNavDropdown {
+        width: 70%;
+    }
+
+    .nav-btn {
+        width: 15%;
+        margin-left: 22px;
+    }
+
+    .container-fluid.v2 {
+        width: 80%;
+    }
+
+    ul.navbar-nav .nav-item a {
+        font-family: "Sansation", sans-serif;
+        font-size: .85rem;
+        padding: 0;
+        border-radius: 5px;
+    }
+
+    section.about-perk.pad-tb-100 {
+        padding: 70px 0px;
+    }
+
+    section.strategy.pad-tb-100 {
+        padding: 70px 0;
+    }
+
+    .nav-btn a {
+        padding: 15px 35px;
+        font-size: 16px;
+    }
+
+    a.dropdown-item {
+        padding: 30px 0px;
+    }
+
+    .main-banner {
+        padding: 240px 0px 90px 0px;
+    }
+
+    .banner-details h1 {
+        font-size: 80.88px;
+    }
+
+    .service-head h2 {
+        padding: 30px 50px 0px;
+    }
+
+    .container-fluid.tabs {
+        padding-top: 2%;
+    }
+
+    ul.list-inline.tab-list.col-md-12 li .sertab-img {
+        padding: 30px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sertab-head h3 {
+        font-size: 20px;
+    }
+
+    .col-md-4.bor-right h4 {
+        font-size: 24px;
+    }
+
+    .cta-head h3 {
+        font-size: 40px;
+    }
+
+    .cta-image img {
+        width: 90%;
+    }
+
+    .input-field.v6 input {
+        width: 460px;
+    }
+
+    .about-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .about-info h4 {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .perk-info {
+        padding: 65px 26px;
+    }
+
+    .item p {
+        font-size: 16px;
+    }
+
+    .item {
+        padding: 0 9px;
+    }
+
+    .strategy-tabs {
+        margin-top: 50px;
+    }
+
+    .strategy-head h2 {
+        font-size: 36px;
+        line-height: 1.2;
+        padding: 20px 100px 0px 100px;
+    }
+
+    .tab-heading-info h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .tab-heading-info p {
+        font-size: 18px;
+        margin: 55px 210px 49px 0px;
+    }
+
+    .tab-btn.v2 a {
+        padding: 20px 50px;
+    }
+
+    .counter-head h4 {
+        font-size: 55px;
+    }
+
+    .counter-head h3 {
+        font-size: 55px;
+    }
+
+    .counter-head {
+        padding-right: 0px;
+    }
+
+    .counter-head p {
+        font-size: 17px;
+    }
+
+    .counter-container span {
+        font-size: 20px;
+    }
+
+    .counter {
+        font-size: 80px;
+        margin-top: 10px;
+    }
+
+    .container-fluid.v2.color-bg {
+        padding: 440px 90px 60px 90px;
+    }
+
+    .cta-head.v2 {
+        padding-right: 40px;
+    }
+
+    .test-heading h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .col-md-4.bor-right img {
+        width: 70%;
+    }
+
+    .tabss-info p {
+        margin: 0;
+    }
+
+    .tabss-info {
+        margin-top: 66px;
+    }
+
+    .news-detail h2 {
+        font-size: 54px;
+    }
+
+    .blogs-details p {
+        font-size: 16px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        text-transform: capitalize;
+        margin-top: 20px;
+        text-align: left;
+        font-size: 16px;
+        font-family: 'Poppins';
+        line-height: 34px;
+    }
+
+    .tab-btn.v9 a {
+        padding: 15px 30px 15px 30px;
+        font-size: 16px;
+    }
+
+    .tab-btnss .tab-btn a {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .blog-slider {
+        padding-left: 100px;
+    }
+
+    section.testimonials.pad-tb-150 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .swiper-pagination-v2.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: var(--swiper-pagination-bottom, -6px) !important;
+    }
+
+    .review-info p {
+        font-size: 16px;
+    }
+
+    section.blogs.pad-tb-100 {
+        padding-bottom: 70px;
+    }
+
+    .container-fluid.v2.bg-color {
+        padding: 70px 0 10px 0px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .main-banner {
+        padding: 250px 0px 90px 0px !important;
+    }
+
+    .nav-btn a {
+        padding: 11px 25px;
+    }
+
+    .blog-slider {
+        padding-left: 135px;
+    }
+
+    .container-fluid.v2 {
+        width: 85%;
+    }
+
+    .tab-heading-info {
+        width: 45%;
+        padding-right: 46px;
+    }
+
+    .tab-image {
+        width: 55%;
+        margin-bottom: -38px;
+    }
+
+    .banner-details h1 {
+        font-size: 75.88px;
+    }
+
+    /*.service-head h2 {*/
+    /*    padding: 40px 30px 30px;*/
+    /*    font-size: 56px;*/
+    /*}*/
+    .tab-list>li {
+        padding: 0 2%;
+    }
+
+    .cta-head h3 {
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .cta-head p {
+        font-size: 15px;
+    }
+
+    section.Call-to-action.pad-tb-50 {
+        padding-bottom: 20px;
+    }
+
+    .about-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .about-info h4 {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .perk-head h2 {
+        font-size: 56px;
+    }
+
+    .strategy-head h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .cta-head {
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+
+    .tab-heading-info p {
+        font-size: 16px;
+        margin: 55px 154px 49px 0px;
+    }
+
+    .tab-btn.v2 a {
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+
+    .tab-image img {
+        width: 98%;
+    }
+
+    .tab-content.v3 {
+        padding: 55px 40px 0px 40px;
+    }
+
+    .counter-sec {
+        padding: 24px 22px;
+    }
+
+    .tab-heading-info h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .counter-head h3 {
+        font-size: 52px;
+    }
+
+    .counter {
+        font-size: 70px;
+        margin-top: 10px;
+    }
+
+    .container-fluid.v2.color-bg {
+        padding: 440px 60px 50px 60px;
+    }
+
+    .whychooseus-details h2 {
+        font-size: 50px;
+    }
+
+    .whyus-info img {
+        width: 90px;
+    }
+
+    .whychooseus-details p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .whyus-info {
+        padding: 25px 37px;
+    }
+
+    .test-heading h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .news-detail h2 {
+        font-size: 52px;
+    }
+
+    .footer-col1 p {
+        margin-top: 64px;
+    }
+
+    .footer-col5 {
+        padding-left: 18px;
+    }
+
+    .counter-container {
+        margin: 30px 40px;
+    }
+
+    .swiper-slide.review {
+        padding: 40px 30px;
+    }
+
+    a.dropdown-item {
+        padding: 27px 0px;
+    }
+
+    .tab-btn.v9 a {
+        padding: 15px 30px 15px 30px;
+        font-size: 16px;
+    }
+
+    .tab-btnss .tab-btn a {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    ul.nav.tab-menus.nav-pills.col-sm-4.nav-stacked.pr15 li:hover a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1600px),
+screen and (max-height: 900px) {
+    .main-banner {
+        padding: 220px 0px 90px 0px !important;
+    }
+
+    .banner-details h1 {
+        font-size: 67.88px;
+        line-height: 70px;
+    }
+
+    ul.list-inline.tab-list.col-md-12 li .sertab-img {
+        padding: 23px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .banner-details p {
+        font-family: 'Poppins';
+        font-size: 14px;
+    }
+
+    .about-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .contact-form {
+        margin-top: 25px;
+    }
+
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 45px !important;
+    }
+
+    .swiper-slide.hero img {
+        width: 62%;
+    }
+
+    p.const {
+        margin: 20px 0px;
+    }
+
+    .container-fluid.tabs {
+        padding-top: 1%;
+    }
+
+    ul.list-inline.tab-list.col-md-12 {
+        padding: 12.7px 31.1px 12.7px 31.1px;
+    }
+
+    .service-head h2 {
+        font-size: 50px;
+    }
+
+    .p1 a {
+        line-height: 65px;
+    }
+
+    .col-md-4.bor-right {
+        height: 520px;
+    }
+
+    .about-details p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .strategy-tabs {
+        margin-top: 30px;
+    }
+
+    .tab-content.v3 {
+        padding: 40px 40px 0px 40px;
+    }
+
+    ul.checklist-select.v2 li .hiw-tab {
+        width: 76%;
+    }
+
+    ul.checklist-select.v2 li .hiw-tab.v2 {
+        width: 83%;
+    }
+
+    ul.checklist-select.v2 li .hiw-tab.v3 {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 55px !important;
+    }
+
+    .about-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    ul.checklist-select.v2 li .hiw-tab {
+        width: 56%;
+    }
+
+    .blog-slider {
+        padding-left: 97px;
+    }
+
+    .item p {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .nav-btn a {
+        padding: 14px 28px;
+    }
+
+    .service-head h2 {
+        font-size: 48px;
+    }
+
+    .container-fluid.v2 {
+        width: 94%;
+    }
+
+    .container-fluid.v2.color-bg {
+        width: 95%;
+    }
+
+    .blog-slider {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .banner-details h5 {
+        font-size: 16px;
+    }
+
+    .banner-details h1 {
+        font-size: 58.88px;
+        line-height: 64px;
+    }
+
+    .banner-details p {
+        margin: 20px 0px;
+    }
+
+    .col-md-4.bor-right {
+        height: 430px;
+    }
+
+    .p1 a {
+        line-height: 62px !important;
+    }
+
+    .tab-in-box p {
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .tab-btnss .tab-btn.v9 a {
+        padding: 10px 30px 10px 30px;
+        font-size: 14px;
+    }
+
+    .tab-btnss .tab-btn a {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .p1 a.current {
+        font-size: 20px;
+        ;
+    }
+
+    .about-btn a {
+        padding: 10px 45px;
+        font-size: 16px;
+    }
+
+    .about-btn {
+        margin-top: 30px;
+    }
+
+    .about-details p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .item p {
+        font-size: 12px !important;
+    }
+
+    section.about-perk.pad-tb-100 {
+        padding: 50px 0px;
+    }
+
+    .about-info {
+        margin: 20px 0px;
+    }
+
+    .twothirds.vertical-tabs.\.blok-body {
+        margin-top: 30px;
+    }
+
+    .hiw-details p {
+        font-size: 16px;
+    }
+
+    ul.checklist-select.v2 li {
+        height: 90px;
+    }
+
+    .strategy-head h2 {
+        font-size: 36px;
+        line-height: 1.2;
+        padding: 0;
+    }
+
+    section.blok {
+        padding: 60px 0 40px 0;
+    }
+
+    .report-detail {
+        padding: 15px 10px 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    .progress_bar {
+        padding: 15px 15px 10px 15px;
+    }
+
+    .counter-sec {
+        padding: 17px 9px;
+    }
+
+    .tab-content.v3 {
+        padding: 30px 40px 0px 40px;
+        margin-top: 20px;
+    }
+
+    .visitors h1 {
+        font-size: 15px;
+    }
+
+    .acquisition h1 {
+        font-size: 15px;
+    }
+
+    .google-search h1 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .leads h1 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .tab-navigation h2 {
+        font-size: 16px;
+    }
+
+    .whychooseus-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .whychooseus-details p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .whyus-info {
+        margin-right: 99px !important;
+        padding: 20px 25px;
+        margin-top: 25px !important;
+    }
+
+    .blog-info img {
+        height: 250px !important;
+    }
+
+    .blog-btn a i {
+        font-size: 44px;
+        padding: 23px 30px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .review-info p {
+        line-height: 25px;
+        margin-top: 4px;
+    }
+
+    .container-fluid.v2.bg-color {
+        padding: 60px 0 10px 0px;
+    }
+
+    .footer-border {
+        margin-top: 20px;
+    }
+
+    .blog-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .blog-slider {
+        padding-left: 60px !important;
+    }
+
+    .swiper.mySwiper.blogs.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        padding-bottom: 45px;
+    }
+
+    section.blogs.pad-tb-80 {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .banner-details p {
+        font-family: 'Poppins';
+        font-size: 14px;
+    }
+
+    .banner-details h1 {
+        font-size: 50.88px !important;
+        line-height: 57px;
+    }
+
+    .input-field input {
+        padding: 15px 20px 15px 52px;
+        width: 515px;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+
+    .form-field .submit-btn input {
+        padding: 10px 40px 10px 40px;
+        border-radius: 100px;
+        font-size: 14px;
+        margin-left: -190px;
+    }
+
+    .input-field i {
+        top: 28px;
+        left: 35px;
+    }
+
+    .swiper-slide.hero img {
+        width: 62% !important;
+    }
+
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 25px !important;
+    }
+
+    .form-field .input-field {
+        border: 2px dashed #a9a9a9;
+        padding: 10px;
+    }
+
+    .about-info img {
+        width: 22%;
+    }
+
+    li.nav-item.v2 {
+        margin-bottom: 10px;
+    }
+
+    .nav .nav-item.v2 button.active::after {
+        bottom: -18px;
+    }
+
+    .tab-heading-info p {
+        font-size: 16px !important;
+    }
+
+    .report-detail {
+        padding: 15px 10px 10px 10px !important;
+    }
+
+    .counter-sec {
+        padding: 20px 9px;
+    }
+
+    section.why-choose-us.pad-top-100 {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .main-banner {
+        padding: 190px 0px 50px 0px !important;
+    }
+
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 30px !important;
+    }
+
+    .tab-content.v3 {
+        padding: 45px 40px 0px 50px;
+    }
+
+    .tab-heading-info {
+        padding-right: 6px !important;
+    }
+
+    .report-detail {
+        padding: 15px 10px 10px 20px !important;
+    }
+
+    .container-fluid.v2 {
+        width: 90%;
+    }
+
+    .item_label,
+    .item_value {
+        font-size: 13px;
+    }
+
+    .whyus-heading a {
+        font-size: 16px;
+    }
+
+    .blog-info hr {
+        margin: 0;
+    }
+
+    .cursor .cursors {
+        left: 62px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .tab-btnss {
+        margin-top: 28px;
+    }
+
+    ul.checklist-select.v2 li {
+        font-size: 18px;
+    }
+
+    ul.checklist-select.v2 li.active img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .eclipse1::before {
+        margin-left: 7px;
+    }
+
+    .hiw-btn {
+        margin-top: 40px;
+    }
+
+    .selected {
+        padding: 25px 0px;
+    }
+
+    .whychooseus-details p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}
+
+@media(max-width: 1536px) {
+    .main-banner {
+        padding: 250px 0px 50px 0px !important;
+    }
+
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 60px !important;
+    }
+
+    .cursor .cursors {
+        left: 68px;
+    }
+
+    .container-fluid.v4 {
+        width: 94%;
+    }
+
+    .input-field.v6 input {
+        width: 410px;
+    }
+
+    .footer-col1 {
+        padding-right: 30px;
+    }
+
+    .about-details h2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .tab-list>li {
+        padding: 0 1.5%;
+    }
+
+    .perk-info p {
+        font-size: 17px;
+    }
+
+    .tab-image {
+        right: -60px;
+        top: 45px;
+    }
+
+    .tab-image img {
+        width: 94%;
+    }
+
+    .cta-detail {
+        padding: 40px 20px;
+    }
+
+    ul.nav.tab-menus.nav-pills.col-sm-4.nav-stacked.pr15 li:hover a {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    .perk-info {
+        padding: 60px 20px;
+    }
+
+    .cta-head.v2 {
+        padding-right: 20px;
+    }
+
+    .test-heading h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .swiper-slide.review {
+        padding: 40px 30px;
+    }
+
+    .tab-heading-info h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .counter-sec {
+        padding: 24px 18px;
+    }
+
+    .report-detail {
+        padding: 30px 10px 15px 15px;
+    }
+
+    .news-detail h2 {
+        font-size: 50px;
+    }
+
+    .footer-col5 {
+        width: 20%;
+        padding-left: 6px;
+    }
+
+    .counter-container span {
+        font-size: 18px;
+    }
+
+    .about-details {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .whychooseus-details {
+        padding-right: 85px;
+    }
+
+    .footer-col5 {
+        padding-left: 4px;
+    }
+
+    .cta-head {
+        padding-right: 15px;
+        padding-left: 20px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        text-transform: capitalize;
+        margin-top: 20px;
+        text-align: left;
+        font-size: 15px;
+        font-family: 'Poppins';
+        line-height: 34px;
+    }
+
+    .tab-btn.v9 a {
+        padding: 15px 30px 15px 30px;
+    }
+
+    .tab-btn a {
+        padding: 15px 30px;
+    }
+
+    .tab-btn.v9 a {
+        font-size: 16px;
+    }
+
+    .tab-btn a {
+        font-size: 16px;
+    }
+
+    ul.checklist-select.v2 li .hiw-tab {
+        width: 60%;
+    }
+}
+
+@media(max-width: 1500px) {
+    .container-fluid.v4 {
+        width: 96%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 22px 10px;
+    }
+
+    .main-banner {
+        padding: 145px 0px 50px 0px !important;
+    }
+
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 60px !important;
+    }
+
+    .cursor .cursors {
+        left: 68px;
+    }
+
+    .service-head h2 {
+        padding: 10px 50px 0px;
+    }
+
+    .tab-heading-info {
+        padding-right: 36px;
+    }
+
+    .about-details {
+        padding-right: 40px;
+        padding-left: 60px;
+    }
+
+    .strategy-head h2 {
+        font-size: 36px;
+        line-height: 1.2;
+        padding: 20px 70px 0px 70px;
+    }
+
+    .counter-head p {
+        font-size: 16px;
+    }
+
+    .counter-head h3 {
+        font-size: 50px;
+    }
+
+    .counter-head h4 {
+        font-size: 50px;
+    }
+
+    .whychooseus-details {
+        padding-right: 60px;
+    }
+
+    .counter-sec {
+        padding: 24px 15px;
+    }
+
+    .visitors {
+        padding-right: 23px;
+    }
+
+    .cta-head h3 {
+        font-size: 35px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .footer-col5 {
+        width: 20%;
+        padding-left: 2px;
+    }
+
+    .blogs-details p {
+        font-size: 14px;
+    }
+
+    .tab-btn.v9 a {
+        padding: 15px 30px 15px 30px;
+    }
+
+    .tab-btn a {
+        padding: 15px 30px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .main-banner {
+        padding: 220px 0px 90px 0px;
+    }
+
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 50px;
+    }
+
+    .navbar-brand {
+        margin-right: 0rem;
+    }
+
+    .case-log {
+        position: absolute;
+        right: 0;
+        top: -49px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 0 5px;
+    }
+
+    .counter-sec {
+        margin-left: 11px;
+    }
+
+    .banner-details h1 {
+        font-size: 56px;
+    }
+
+    .swiper-slide.hero img {
+        width: 65%;
+    }
+
+    .service-head h2 {
+        font-size: 45px;
+    }
+
+    ul.list-inline.tab-list.col-md-12 li .sertab-img {
+        padding: 24px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .tab-list>li {
+        padding: 0 2.5%;
+    }
+
+    .sertab-head h3 {
+        font-size: 20px;
+    }
+
+    .col-md-4.bor-right h4 {
+        font-size: 22px;
+    }
+
+    .col-md-4.bor-right h4 i {
+        font-size: 20px;
+    }
+
+    .tab-in-box {
+        padding: 0px 0px 0px 28px;
+    }
+
+    .p1 a {
+        font-size: 16px;
+    }
+
+    .cta-image img {
+        width: 79%;
+    }
+
+    .cta-head {
+        padding-right: 40px;
+    }
+
+    .cta-head h3 {
+        font-size: 34px;
+    }
+
+    .cta-head p {
+        font-size: 15px;
+    }
+
+    .input-field.v6 input {
+        width: 384px;
+    }
+
+    .cta-para p {
+        font-size: 16px;
+    }
+
+    .cta-detail {
+        padding: 40px 30px 20px;
+    }
+
+    .hiw-head h3 {
+        font-size: 34px;
+    }
+
+    .about-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .about-details {
+        padding-right: 45px;
+        padding-left: 55px;
+    }
+
+    .about-info h4 {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .perk-info {
+        padding: 50px 12px;
+    }
+
+    .perk-info h4 {
+        font-size: 22px;
+    }
+
+    .perk-info p {
+        font-size: 16px;
+    }
+
+    .item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+
+    .item p {
+        margin-left: 5px;
+    }
+
+    .perk-head h2 {
+        font-size: 54px;
+    }
+
+    .strategy-head h2 {
+        padding: 20px 0px 0px 0px;
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .tab-heading-info h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .tab-heading-info p {
+        font-size: 18px;
+        margin: 40px 155px 54px 0px;
+    }
+
+    .tab-image img {
+        width: 82%;
+    }
+
+    .tabss-info p {
+        margin: 0;
+    }
+
+    .tabss-info {
+        margin-top: 40px;
+    }
+
+    .tab-btn.v2 a {
+        padding: 15px 35px;
+        font-size: 16px;
+    }
+
+    .tab-image {
+        right: -97px;
+        top: 69px;
+    }
+
+    li.nav-item.v2 {
+        font-size: 21px;
+    }
+
+    .counter-head h3 {
+        font-size: 46px;
+    }
+
+    .counter-head h4 {
+        font-size: 46px;
+    }
+
+    .counter-head p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .container-fluid.v2.color-bg {
+        padding: 370px 40px 50px 40px;
+    }
+
+    .counter {
+        font-size: 75px;
+    }
+
+    .counter-container {
+        margin: 30px 40px;
+    }
+
+    .counter-container span {
+        font-size: 16px;
+    }
+
+    .whychooseus-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .whychooseus-details {
+        padding-right: 20px;
+    }
+
+    .whyus-info {
+        padding: 20px 33px;
+        margin-right: 95px;
+    }
+
+    .whyus-heading h4 {
+        font-size: 22px;
+    }
+
+    .whyus-info img {
+        margin-right: 30px;
+        width: 85px;
+    }
+
+    .cta-head.v2 {
+        padding-right: 20px;
+    }
+
+    .cta-head h3 {
+        font-size: 32px;
+    }
+
+    .cta-para {
+        padding-left: 10px;
+        padding-right: 28px;
+    }
+
+    .cta-btn a {
+        padding: 15px 35px;
+    }
+
+    .blog-slider {
+        padding-left: 92px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    /*.swiper-slide.blogs .blog-info h6 { */
+    /*    font-size: 19px; */
+    /*}*/
+    /*.blogs-details p { */
+    /*    font-size: 16px; */
+    /*}*/
+    /*.blog-btn a i { */
+    /*    font-size: 44px; */
+    /*    padding: 44px 52px; */
+    /*}*/
+    section.blogs.pad-tb-100 {
+        padding-bottom: 20px;
+    }
+
+    .test-heading h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .swiper.mySwiper.review.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        padding: 0px 3px 25px 3px;
+    }
+
+    .review-info p {
+        font-size: 16px;
+    }
+
+    .swiper-slide.review {
+        padding: 35px 51px;
+    }
+
+    .input-field.v7 input {
+        width: 492px;
+        border-radius: 100px;
+    }
+
+    .news-detail h2 {
+        font-size: 48px;
+    }
+
+    .news-detail p {
+        font-size: 16px;
+    }
+
+    .footer-col1 {
+        width: 30%;
+        padding-right: 42px;
+    }
+
+    .footer-col1 p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .footer-col2 h4 {
+        font-size: 20px;
+    }
+
+    .footer-col3 h4 {
+        font-size: 20px;
+    }
+
+    .footer-col4 h4 {
+        font-size: 20px;
+    }
+
+    .footer-col5 h4 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .footer-col2 ul li a {
+        font-size: 16px;
+    }
+
+    .footer-col3 ul li a {
+        font-size: 16px;
+    }
+
+    .footer-col4 ul li a {
+        font-size: 16px;
+    }
+
+    .footer-col5 ul li a {
+        font-size: 16px;
+    }
+
+    .footer-col5 {
+        padding-left: 0px;
+    }
+
+    .social-icons i {
+        font-size: 18px;
+        padding: 0px 8px;
+    }
+
+    .form-field.v7 .submit-btn.v7 input {
+        padding: 14px 40px 14px 40px;
+        margin-left: -153px;
+    }
+
+    .input-field.v7 input {
+        width: 492px;
+        border-radius: 100px;
+        padding: 20px 20px 20px 45px;
+    }
+
+    section.strategy.pad-tb-100 {
+        padding: 30px 0;
+    }
+
+    .visitors {
+        padding-right: 10px;
+    }
+
+    .report-detail {
+        padding: 30px 10px 15px 10px;
+    }
+
+    .swiper-slide.review {
+        padding: 35px 41px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 5px;
+        padding-left: 3px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 22px 10px;
+    }
+
+    ul.navbar-nav .nav-item a {
+        font-size: 14px;
+    }
+
+    .nav-btn a {
+        padding: 16px 25px;
+        font-size: 13px;
+    }
+
+    .nav-btn {
+        margin-left: 6px;
+    }
+
+    a.dropdown-item {
+        padding: 23px 0px;
+    }
+
+    .service-head h2 {
+        font-size: 48px;
+    }
+
+    .sertab-head h3 {
+        font-size: 20px;
+    }
+
+    ul.list-inline.tab-list.col-md-12 li .sertab-img {
+        padding: 20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .col-md-4.bor-right h4 {
+        font-size: 20px;
+    }
+
+    .tab-heading-info h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .barcontainer {
+        width: 66px;
+        height: 116px;
+    }
+
+    .barsheading.v1 .bar-heading h6 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .bar-heading h6 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .progress_bar {
+        padding: 30px 15px 1px 15px;
+    }
+
+    .counter-sec {
+        padding: 20px 9px;
+    }
+
+    .whyus-info {
+        margin-right: 75px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .p1 a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .tab-in-box h2 {
+        font-size: 26px;
+    }
+
+    .cta-image img {
+        width: 75%;
+    }
+
+    .cta-head {
+        padding-right: 0px;
+    }
+
+    .cta-head p {
+        font-size: 14px;
+    }
+
+    .cta-detail {
+        padding: 40px 30px 10px;
+    }
+
+    .cta-para p {
+        font-size: 14px;
+    }
+
+    .cta-para h4 {
+        font-size: 20px;
+    }
+
+    .input-field.v6 {
+        padding: 6px 0px !important;
+    }
+
+    .form-field.v6 .submit-btn.v6 input {
+        margin-left: -138px !important;
+        margin-top: 7px !important;
+    }
+
+    .about-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .perk-head h2 {
+        font-size: 50px;
+    }
+
+    .strategy-head h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .counter-container {
+        margin: 30px 30px;
+    }
+
+    section.why-choose-us.pad-top-150 {
+        padding-top: 100px;
+    }
+
+    .test-heading h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .swiper-slide.review {
+        padding: 24px 20px;
+    }
+
+    .swiper-pagination-v2.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: var(--swiper-pagination-bottom, -6px) !important;
+        left: 8px !important;
+    }
+
+    .news-detail h2 {
+        font-size: 40px;
+    }
+
+    .footer-col3 h4 {
+        font-weight: 600;
+    }
+
+    div#navbarNavDropdown {
+        width: 65%;
+    }
+
+    .nav-btn {
+        width: 20%;
+    }
+
+    .cta-head.v2 p span {
+        font-size: 18px;
+    }
+
+    .tab-image img {
+        width: 75%;
+    }
+
+    .tab-image {
+        right: -147px;
+        top: 106px;
+    }
+
+    .main-banner {
+        padding: 190px 0px 90px 0px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 22px 7px;
+    }
+
+    .nav-btn a {
+        padding: 16px 20px;
+        font-size: 13px;
+    }
+
+    .banner-details h1 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .swiper.mySwiper.hero.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+        margin-top: 45px;
+    }
+
+    .service-head h2 {
+        font-size: 44px;
+        line-height: 65px;
+        padding: 0px 0px 0px;
+    }
+
+    .tab-heading-info h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .sertab-head h3 {
+        font-size: 20px;
+    }
+
+    ul.list-inline.tab-list.col-md-12 li .sertab-img {
+        padding: 22px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .container-fluid.tabs {
+        padding-top: 1%;
+    }
+
+    .col-md-4.bor-right {
+        height: 450px !important;
+        overflow-y: scroll;
+    }
+
+    .progress_bar {
+        padding: 20px 15px 10px 15px;
+    }
+
+    .counter.v1 {
+        font-size: 55px;
+    }
+
+    .counter-sec {
+        padding: 21px 2px;
+    }
+
+    .barcontainer {
+        width: 62px;
+        height: 114px;
+    }
+
+    .barcontainer {
+        margin-left: 15px;
+    }
+
+    .bar-heading h6 {
+        margin-left: 7px;
+        margin-top: 15px;
+    }
+
+    .col-md-4.bor-right h4 {
+        font-size: 18px;
+    }
+
+    .p1 a {
+        font-size: 16px;
+        line-height: 68px;
+    }
+
+    .col-md-4.bor-right h4 i {
+        font-size: 15px;
+    }
+
+    .tab-in-box h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .tab-in-box p {
+        padding-top: 15px;
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 0
+    }
+
+    .tab-btn a {
+        font-size: 16px;
+        padding: 13px 50px;
+    }
+
+    .cta-image {
+        top: -13px;
+    }
+
+    .cta-image img {
+        width: 69%;
+    }
+
+    .cta-head p {
+        font-size: 13px;
+    }
+
+    .input-field.v6 input {
+        width: 340px;
+    }
+
+    .input-field.v6 input {
+        font-size: 14px;
+    }
+
+    .form-field.v6 .submit-btn.v6 input {
+        margin-left: -113px !important;
+        margin-top: 7px !important;
+        font-size: 14px;
+        padding: 14px 30px 14px 30px;
+    }
+
+    .blog-slider {
+        padding-left: 80px;
+    }
+
+    .about-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    section.strategy.pad-tb-100 {
+        padding: 0px 0 30px;
+    }
+
+    .blog-slider {
+        padding-left: 55px;
+    }
+
+    .swiper-pagination.v5.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-left: 22px !important;
+    }
+
+    .about-details {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .about-details p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .about-btn a {
+        padding: 12px 40px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .perk-head h2 {
+        font-size: 48px;
+        padding: 120px 100px 60px;
+    }
+
+    .perk-info {
+        padding: 25px 12px;
+    }
+
+    .perk-info h4 {
+        font-size: 20px;
+    }
+
+    .perk-info p {
+        font-size: 15px;
+    }
+
+    section.about-perk.pad-tb-100 {
+        padding: 50px 0px;
+    }
+
+    .item img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .strategy-head h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .strategy-tabs {
+        margin-top: 50px;
+    }
+
+    .tab-heading-info p {
+        font-size: 16px;
+        margin: 40px 120px 54px 0px;
+    }
+
+    .tab-image {
+        right: -172px;
+        top: 118px;
+    }
+
+    .tab-image img {
+        width: 72%;
+    }
+
+    .counter-head h3 {
+        font-size: 45px;
+    }
+
+    .counter-head h4 {
+        font-size: 45px;
+    }
+
+    .counter-head p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 30px;
+    }
+
+    .counter-container span {
+        font-size: 14px;
+    }
+
+    .counter {
+        font-size: 68px;
+    }
+
+    .counter-line hr {
+        margin-top: 55px;
+    }
+
+    .whyus-info img {
+        margin-right: 20px;
+        width: 72px;
+    }
+
+    .whyus-info {
+        padding: 20px 33px;
+        margin-right: 80px;
+    }
+
+    .whychooseus-details {
+        padding-right: 0px;
+    }
+
+    .cta-head h3 {
+        font-size: 28px;
+    }
+
+    .cta-head.v2 p span {
+        font-size: 16px;
+    }
+
+    .cta-btn a {
+        padding: 12px 32px;
+        font-size: 15px;
+    }
+
+    .cta-btn {
+        margin-top: 40px;
+    }
+
+    .cta-image {
+        top: -26px;
+    }
+
+    section.blogs.pad-tb-100 {
+        padding-bottom: 20px;
+        padding-top: 60px;
+    }
+
+    .blog-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .blogs-details p {
+        font-size: 15px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 27px;
+    }
+
+    .test-heading h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .swiper-slide.review {
+        padding: 20px 30px;
+    }
+
+    .review-info p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    .review-info h4 {
+        font-size: 20px;
+    }
+
+    .review-info h6 {
+        font-size: 16px;
+    }
+
+    .test-rate h1 {
+        font-size: 67.32px;
+    }
+
+    .test-stars p {
+        font-size: 18px;
+    }
+
+    .test-stars img {
+        width: 75%;
+    }
+
+    .test-rating {
+        width: 336px;
+    }
+
+    .input-field.v7 input {
+        width: 450px;
+        padding: 15px 20px 15px 45px;
+        font-size: 14px;
+    }
+
+    .form-field.v7 .input-field.v7 {
+        font-size: 14px;
+    }
+
+    .form-field.v7 .submit-btn.v7 input {
+        font-size: 16px;
+        padding: 14px 40px 14px 40px;
+        margin-left: -139px;
+        margin-top: 0px;
+    }
+
+    .input-field.v7 i {
+        left: 22px;
+        top: 19px;
+    }
+
+    .footer-border {
+        margin-top: 30px;
+    }
+
+    .footer-details {
+        margin-top: 50px;
+    }
+
+    .footer-col1 {
+        padding-right: 30px;
+    }
+
+    .footer-col3 ul li a {
+        font-size: 15px;
+    }
+
+    .footer-col2 ul li a {
+        font-size: 15px;
+    }
+
+    .footer-col4 ul li a {
+        font-size: 15px;
+    }
+
+    .footer-col5 ul li a {
+        font-size: 15px;
+    }
+
+    .footer-col1 p {
+        font-size: 15px;
+    }
+
+    .news-detail p {
+        font-size: 15px;
+    }
+
+    .footer-col2 h4 {
+        font-size: 19px;
+    }
+
+    .footer-col3 h4 {
+        font-size: 19px;
+    }
+
+    .footer-col4 h4 {
+        font-size: 19px;
+    }
+
+    .footer-col5 h4 {
+        font-size: 19px;
+    }
+
+    .footer-col2 ul {
+        margin-top: 40px;
+    }
+
+    .footer-col3 ul {
+        margin-top: 40px;
+    }
+
+    .footer-col4 ul {
+        margin-top: 40px;
+    }
+
+    .footer-col5 ul {
+        margin-top: 40px;
+    }
+
+    .footer-col1 p {
+        margin-top: 40px;
+    }
+
+    .whychooseus-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .container-fluid.v2.bg-color {
+        padding: 90px 30px 10px 30px;
+    }
+
+    .tabss-info p {
+        margin: 0;
+    }
+}
+
+@media(max-width: 1200px) {
+    .container-fluid.v2 {
+        width: 95%;
+    }
+
+    ul.navbar-nav .nav-item a {
+        font-size: 13px;
+    }
+
+    .nav-btn a {
+        padding: 14px 19px;
+        font-size: 12px;
+    }
+
+    a.dropdown-item {
+        padding: 18px 0px;
+    }
+
+    .bar-heading h6 {
+        font-size: 11px;
+    }
+
+    .banner-details h1 {
+        font-size: 55px;
+        line-height: 62px;
+    }
+
+    .banner-details p {
+        font-size: 16px;
+    }
+
+    .input-field input {
+        width: 510px;
+        font-size: 14px;
+    }
+
+    .p1 a.current {
+        font-size: 18px;
+    }
+
+    .p1 a.current i {
+        font-size: 16px;
+    }
+
+    .tab-in-box h2 {
+        font-size: 23px;
+    }
+
+    .form-field .submit-btn input {
+        font-size: 14px;
+        margin-left: -196px;
+    }
+
+    .banner-details p {
+        font-size: 14px;
+    }
+
+    .banner-details h5 {
+        font-size: 16px;
+    }
+
+    .main-banner {
+        padding: 200px 0px 60px 0px;
+        overflow: hidden !important;
+    }
+
+    .container-fluid.v2.bg-color {
+        padding: 70px 0px 10px 0px;
+    }
+
+    .overlay {
+        position: absolute;
+        /* width: 100%; */
+        display: flex;
+        top: 6px;
+        right: 0px;
+        width: 100%;
+        opacity: 0.5;
+        text-align: right;
+        z-index: 0;
+        animation: animate 9s linear infinite;
+        transition-timing-function: ease-in-out;
+        justify-content: space-between;
+    }
+
+    .service-head h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    ul.list-inline.tab-list.col-md-12 {
+        padding: 18px 15px 18px 17px;
+    }
+
+    .tab-in-box {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .about-info {
+        margin: 30px 0px;
+    }
+
+    about-btn {
+        margin-top: 40px;
+    }
+
+    .perk-info h4 {
+        font-size: 18px;
+    }
+
+    .perk-info p {
+        font-size: 14px;
+    }
+
+    .item p {
+        font-size: 13px;
+    }
+
+    .item img {
+        width: 23px;
+        height: 23px;
+    }
+
+    section.strategy.pad-tb-100 {
+        padding-top: 70px;
+    }
+
+    .strategy-head h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .container-fluid.v2.color-bg {
+        padding: 410px 20px 40px 20px;
+    }
+
+    .container-fluid.v2.color-bg {
+        width: 96%;
+        margin-top: -360px;
+    }
+
+    section.why-choose-us.pad-top-100 {
+        padding-top: 80px;
+    }
+
+    .counter-head h3 {
+        font-size: 42px;
+    }
+
+    .counter-head h4 {
+        font-size: 42px;
+    }
+
+    section.testimonials.pad-tb-150 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .counter-head p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 6px;
+    }
+
+    .counter {
+        font-size: 60px;
+    }
+
+    .whychooseus-details h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .whyus-info {
+        margin-right: 70px;
+    }
+
+    .blog-slider {
+        padding-left: 30px;
+    }
+
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 20px;
+    }
+
+    .blogs-details {
+        margin-top: 18px;
+    }
+
+    .swiper-slide.blogs .blog-info h6 {
+        margin-top: 0px;
+    }
+
+    .overlay img {
+        width: 50%;
+    }
+
+    .tab-heading-info h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .tab-heading-info p {
+        font-size: 16px;
+        margin: 40px 80px 54px 0px;
+    }
+
+    .counter-container.v1 span {
+        font-size: 12px;
+    }
+
+    .progress_bar_item {
+        margin-bottom: 14px;
+    }
+
+    .barcontainer {
+        width: 55px;
+        height: 99px;
+    }
+
+    .barsheading.v1 .bar-heading h6 {
+        font-size: 11px;
+        margin-top: 15px;
+    }
+
+    .barcontainer {
+        margin-left: 17px;
+    }
+
+    .barcontainer h6 {
+        font-size: 13px;
+    }
+
+    #containers {
+        width: 100%;
+        height: 220px;
+    }
+
+    #containerss {
+        width: 100%;
+        height: 220px;
+    }
+
+    #containers1 {
+        width: 100%;
+        height: 220px;
+    }
+
+    #containers2 {
+        width: 100%;
+        height: 220px;
+    }
+
+    #containers3 {
+        width: 100%;
+        height: 220px;
+    }
+
+    #containers4 {
+        width: 100%;
+        height: 220px;
+    }
+
+    #containers5 {
+        width: 106%;
+        height: 220px;
+    }
+
+    #containers6 {
+        width: 106%;
+        height: 220px;
+    }
+
+    li.nav-item.v2 {
+        font-size: 18px;
+    }
+
+    .whyus-heading a {
+        font-size: 14px;
+    }
+
+    .whyus-heading h4 {
+        font-size: 20px;
+    }
+
+    .whyus-info img {
+        width: 62px;
+    }
+
+    .review-info p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    .news-detail h2 {
+        font-size: 36px;
+    }
+}
+
+/*@media(max-width: 1080px){*/
+/*    ul.navbar-nav .nav-item a {*/
+/*        font-size: 12px;*/
+/*    }*/
+/*    .navbar-light .navbar-nav .nav-link {*/
+/*        padding: 22px 6px;*/
+/*    }*/
+/*    .nav-btn a {*/
+/*        padding: 14px 10px;*/
+/*        font-size: 12px;*/
+/*    }*/
+/*    .nav-btn a i {*/
+/*        margin-right: 5px;*/
+/*        font-size: 14px;*/
+/*        color: #282B29;*/
+/*    }*/
+/*    .banner-details h5 {*/
+/*        font-size: 15px;*/
+/*    }*/
+/*    .banner-details h1 {*/
+/*        font-size: 50px;*/
+/*        line-height: 62px;*/
+/*    }*/
+/*    .input-field input {*/
+/*        width: 470px;*/
+/*        font-size: 14px;*/
+/*    }*/
+/*    .form-field .submit-btn input {*/
+/*        font-size: 14px;*/
+/*        margin-left: -177px;*/
+/*        padding: 14px 30px 14px 30px;*/
+/*    }*/
+/*    .service-head h2 {*/
+/*        font-size: 40px;*/
+/*        line-height: 52px;*/
+/*        padding: 10px 0px 15px;*/
+/*    }*/
+/*    .p1 a {*/
+/*        font-size: 16px;*/
+/*        line-height: 62px;*/
+/*    }*/
+/*    .tab-btn a {*/
+/*        font-size: 14px;*/
+/*        padding: 12px 40px;*/
+/*    }*/
+/*    .tab-in-box p {*/
+/*        padding-top: 7px;*/
+/*        font-size: 14px;*/
+/*        line-height: 26px;*/
+/*    }*/
+/*    .cta-image img {*/
+/*        width: 65%;*/
+/*    }*/
+/*    .cta-image {*/
+/*        top: -15px;*/
+/*    }*/
+/*    .input-field.v6 input {*/
+/*        width: 320px;*/
+/*    }*/
+/*    .form-field.v6 .submit-btn.v6 input {*/
+/*        margin-left: -102px !important; */
+/*        padding: 12px 25px 12px 25px;*/
+/*    }*/
+/*    .input-field.v6 input {*/
+/*        padding: 12px 0px 12px 27px;*/
+/*    }*/
+/*    section.about-perk.pad-tb-100 {*/
+/*        padding: 33px 0px;*/
+/*    }*/
+/*    section.about-perk { */
+/*        background-position: center right;*/
+/*    }*/
+/*    .about-details h2 {*/
+/*        font-size: 40px;*/
+/*        line-height: 50px;*/
+/*    }*/
+/*    .about-details {*/
+/*        padding-right: 10px;*/
+/*        padding-left: 30px;*/
+/*    }*/
+/*    .about-info h4 {*/
+/*        font-size: 18px;*/
+/*        line-height: 28px;*/
+/*    }*/
+/*    .about-btn {*/
+/*        margin-top: 40px;*/
+/*    }*/
+/*    .perk-head h2 {*/
+/*        font-size: 40px;*/
+/*        padding: 120px 100px 40px;*/
+/*    }*/
+/*    .perk-info h4 {*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    .perk-info img {*/
+/*        width: 80px;*/
+/*        height: 80px;*/
+/*        margin-bottom: 20px;*/
+/*    }   */
+/*    .perk-info img {*/
+/*        width: 80px;*/
+/*        height: 80px;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*    .strategy-head h2 {*/
+/*        font-size: 40px;*/
+/*        line-height: 52px;*/
+/*    }*/
+/*    section.strategy.pad-tb-100 {*/
+/*        padding-top: 50px;*/
+/*    }*/
+/*    section.strategy.pad-tb-100 {*/
+/*        padding-top: 50px;*/
+/*    }*/
+/*    li.nav-item.v2 .nav-link { */
+/*        font-size: 18px;*/
+/*    }*/
+/*    .tab-heading-info p {*/
+/*        font-size: 16px;*/
+/*        margin: 40px 114px 54px 0px;*/
+/*    }*/
+/*    .tab-btn.v2 a {*/
+/*        padding: 15px 35px;*/
+/*    }*/
+/*    .tab-image img {*/
+/*        width: 63%;*/
+/*    }*/
+/*    .tab-image img {*/
+/*        width: 63%;*/
+/*    }*/
+/*    .counter-head h3 {*/
+/*        font-size: 38px;*/
+/*        line-height: 50px;*/
+/*    }*/
+/*    .counter-head h4 {*/
+/*        font-size: 37px;*/
+/*    }*/
+/*    .container-fluid.v2.color-bg {*/
+/*        padding: 385px 40px 25px 40px;*/
+/*    }*/
+/*    .counter-head p { */
+/*        margin-top: 5px;*/
+/*    }*/
+/*    .counter {*/
+/*        font-size: 50px;*/
+/*    }*/
+/*    section.why-choose-us.pad-top-150 {*/
+/*       padding-top: 80px;*/
+/*    }*/
+/*    .whychooseus-details p {  */
+/*       font-size: 15px;*/
+/*       margin-top: 15px;*/
+/*    }*/
+/*    .whyus-info img { */
+/*        width: 70px;*/
+/*    }*/
+/*    .whyus-heading h4 {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*    .whyus-info {*/
+/*        margin-right: 90px;*/
+/*    }*/
+/*    .whychooseus-details h5 { */
+/*        font-size: 16px; */
+/*    }*/
+/*    .whychooseus-details h2 {*/
+/*        font-size: 40px;*/
+/*        line-height: 52px;*/
+/*    }*/
+/*    .blog-details h5 { */
+/*        font-size: 16px; */
+/*    }*/
+/*    .blog-details h2 {*/
+/*        font-size: 52px;*/
+/*    }*/
+/*    .blog-btn a i {*/
+/*        font-size: 40px;*/
+/*        padding: 35px 40px;*/
+/*    }*/
+/*    .swiper-slide.blogs .blog-info h6 {*/
+/*        font-size: 14px; */
+/*    }*/
+/*    .blogs-details p {*/
+/*            font-size: 14px;*/
+/*    }*/
+/*    .test-heading h2 {*/
+/*        line-height: 50px;*/
+/*        font-size: 40px;*/
+/*    }*/
+/*    .test-heading h5 { */
+/*        font-size: 16px; */
+/*    }*/
+/*    .test-rate h1 {*/
+/*        font-size: 60px;*/
+/*    }*/
+/*    .test-rating {*/
+/*        width: 310px;*/
+/*    }*/
+/*   .test-stars p {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*    .review-info p {*/
+/*        font-size: 14px;*/
+/*        line-height: 25px; */
+/*    }*/
+/*   .review-client img {*/
+/*       width: 85%;*/
+/*    }*/
+/*    .news-detail h2 {*/
+/*      font-size: 36px;*/
+/*    }*/
+/*    .input-field.v7 input {*/
+/*        width: 420px; */
+/*    }*/
+/*    .form-field.v7 .submit-btn.v7 input { */
+/*        padding: 14px 35px 14px 35px;*/
+/*        margin-left: -128px; */
+/*    }*/
+/*    .container-fluid.v2.bg-color {*/
+/*        padding: 60px 0px 10px 0px;*/
+/*    }*/
+/*    .footer-col1 p {*/
+/*        margin-top: 50px;*/
+/*    }*/
+/*    .footer-col2 ul li {*/
+/*        padding: 6px 0px;*/
+/*    }*/
+/*    .footer-col3 ul li {*/
+/*        padding: 6px 0px;*/
+/*    }*/
+/*    .footer-col4 ul li {*/
+/*        padding: 6px 0px;*/
+/*    }*/
+/*    .footer-col5 ul li {*/
+/*        padding: 6px 0px;*/
+/*    }*/
+/*    .container-fluid.v4 {*/
+/*        width: 100%;*/
+/*    }*/
+/*    .tabss-info p {*/
+/*        margin: 0;*/
+/*    }*/
+/*    .tab-content.v3 {*/
+/*        padding: 50px 25px 70px 45px;*/
+/*    }*/
+/*    .tab-image {*/
+/*        right: -189px;*/
+/*        top: 150px;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-width: 1366px),
+screen and (max-height: 768px) {}
+
+/*@media screen and (max-width: 1024px), */
+/*       screen and (max-height: 768px) {*/
+/*    .nav-btn {*/
+/*        width: 20%;*/
+/*        text-align: center;*/
+/*    }*/
+/*    .form-field .submit-btn input { */
+/*        margin-left: -168px;*/
+/*        padding: 12px 30px 12px 30px;*/
+/*    }*/
+/*    .p1 a.current {*/
+/*        font-size: 17px;*/
+/*    }*/
+/*    .p1 a.current i {*/
+/*        font-size: 14px;*/
+/*        margin-left: 20px;*/
+/*    }*/
+/*    .tab-in-box p {*/
+/*        padding-top: 5px;*/
+/*        font-size: 14px;*/
+/*        line-height: 22px;*/
+/*    }*/
+/*    .col-md-4.bor-right {*/
+/*        height: 425px !important;*/
+/*        overflow-y: scroll;*/
+/*    }*/
+/*    .about-details h2 {*/
+/*        font-size: 38px;*/
+/*        line-height: 50px;*/
+/*    }*/
+/*    ul.checklist-select.v2 li {*/
+/*        font-size: 15px;*/
+/*    }*/
+/*    ul.checklist-select.v2 li.active img {*/
+/*        height: 14px;*/
+/*        width: 14px;*/
+/*    }*/
+/*    .hiw-details p {*/
+/*        font-size: 14px;*/
+/*    }*/
+/*    .hiw-btn a { */
+/*        padding: 15px 30px; */
+/*        font-size: 14px; */
+/*    }*/
+/*    .hiw-head h3 {*/
+/*        font-size: 28px;*/
+/*    }*/
+/*    .eclipse1::before {*/
+/*        margin-left: 5px;*/
+/*    }*/
+/*        .tab-heading-info h2 {*/
+/*        font-size: 19px;*/
+/*        line-height: 34px;*/
+/*    }*/
+/*    .tab-heading-info p {*/
+/*        font-size: 14px !important;*/
+/*        margin: 40px 9px 54px 0px;*/
+/*    }*/
+/*    .tab-btn.v2 a {*/
+/*        padding: 10px 30px;*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .tab-heading-info {*/
+/*        width: 44%;*/
+/*        padding-right: 20px !important;*/
+/*    }*/
+/*    .tab-image {*/
+/*        width: 56%;*/
+/*        margin-bottom: -113px;*/
+/*    }*/
+/*    .item_label, .item_value {*/
+/*        font-size: 12px;*/
+/*    }*/
+/*    .counter-sec {*/
+/*        padding: 16px 2px;*/
+/*    }*/
+/*    .counter-head h3 {*/
+/*        font-size: 35px;*/
+/*        line-height: 48px;*/
+/*    }*/
+/*    .counter-head h4 {*/
+/*        font-size: 35px;*/
+/*        line-height: 48px;*/
+/*    }*/
+/*   .container-fluid.v2.color-bg {*/
+/*        padding: 500px 40px 25px 40px; */
+/*    }*/
+/*    .whychooseus-details h2 { */
+/*        font-size: 42px !important;*/
+/*        line-height: 44px;*/
+/*    }*/
+/*    .whyus-info {*/
+/*        margin-right: 50px !important;*/
+/*        margin-top: 20px !important;*/
+/*    }*/
+/*    .blog-slider {*/
+/*        padding-left: 35px !important;*/
+/*    }*/
+/*    .review-info p {*/
+/*        font-size: 14px;*/
+/*        line-height: 20px;*/
+/*    }*/
+/*    .news-detail h2 {*/
+/*        font-size: 32px;*/
+/*    }*/
+/*    .news-detail p {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .social-icons i {*/
+/*        font-size: 16px;*/
+/*        padding: 0px 8px;*/
+/*    }*/
+/*    .footer-col1 p {*/
+/*        font-size: 14px;*/
+/*    }*/
+/*    .footer-col5 ul li a {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .footer-col4 ul li a {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .footer-col3 ul li a {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .footer-col2 ul li a {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .terms ul li a { */
+/*        font-size: 13px; */
+/*    }*/
+/*    .copyright p { */
+/*        font-size: 13px; */
+/*    }*/
+/*    .cta-head h3 {*/
+/*        font-size: 26px;*/
+/*    }*/
+/*    .cta-head.v2 {*/
+/*        padding-right: 0px;*/
+/*        padding-left: 0px;*/
+/*    }*/
+/*    .cta-head p {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .cta-head.v2 p span {*/
+/*        font-size: 13px;*/
+/*        font-weight: 600;*/
+/*    }*/
+/*    .review-info h4 {*/
+/*        font-size: 18px;*/
+/*    }*/
+/*    .review-info h6 {*/
+/*        font-size: 14px;*/
+/*    }*/
+/*    .test-heading h2 {*/
+/*        line-height: 42px;*/
+/*        font-size: 37px;*/
+/*    }*/
+/*    .test-rate h1 {*/
+/*        font-size: 50px;*/
+/*    }*/
+/*    .test-stars p {*/
+/*        font-size: 18px;*/
+/*    }*/
+/*    .test-rating {*/
+/*        width: 275px;*/
+/*        padding: 15px 15px 0px 15px;*/
+/*    }*/
+/*}*/
+@media(max-width: 991px) {}
+
+@media(max-width: 857px) {}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 654px) {}
+
+@media(max-width: 580px) {}
+
+@media(max-width: 414px) {}
+
+@media(max-width: 390px) {}
+
+@media(max-width: 370px) {}

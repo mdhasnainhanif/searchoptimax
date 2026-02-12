@@ -1,0 +1,480 @@
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1100px){
+   /*footer */
+    ul.dropdown-menu {
+    min-width: 100% !important;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -3px;
+    box-shadow: 0 25px 54px 0 rgba(0, 0, 0, 0.1);
+    left: 50%;
+    transform: translate(-36%, 0);
+    top: 39px;
+}
+
+    .design {
+        left: 10%;
+        transform: translate(-17%, 0) !important;
+        left: 50% !important;
+    }
+    .development {
+        
+        left: 50% !important;
+        transform: translate(-28%, 0) !important;
+    }
+.optimize{
+    left:10%;
+}
+
+
+  /*footer ENDS */  
+    .home2_workflow_sec .workflow-number {
+        width: 56px !important;
+        height: 56px !important;
+        line-height: 56px !important;
+        border-radius: 50% !important;
+        background: rgba(0, 0, 0, .2);
+        position: absolute;
+        font-size: 18px !important;
+        color: #fff;
+    }
+    #workflow-1 .workflow-number {
+        top: 77px !important;
+        left: -35px !important;
+    }
+    .home2_workflow_sec #workflow-1 img {
+        width: 100%;
+        max-width: 78px !important;
+        position: absolute;
+        top: 47% !important;
+        left: 37% !important;
+        transform: translate(-50%, -50%);
+    }
+    .home2_workflow_sec #workflow-1:before {
+        width: 185px !important;
+        height: 200px;
+        top: 20px !important;
+        left: 14px !important;
+    }
+        .home2_workflow_sec #workflow-1:after {
+        width: 245px !important;
+        height: 259px !important;
+        top: -7px !important;
+        left: -12px !important;
+    }
+    #workflow-2 .workflow-number {
+    top: 14px !important;
+    left: 35px !important;
+}
+    .home2_workflow_sec #workflow-2:after {
+        width: 155px !important;
+        height: 246px !important;
+        top: 24px !important;
+        left: 93px !important;
+        rotate: 0deg !important;
+    }
+    .home2_workflow_sec #workflow-2 img {
+    max-width: 92px !important;
+        top: 46% !important;
+    left: 44% !important;
+}
+    .home2_workflow_sec #workflow-2:before {
+        width: 194px !important;
+        height: 200px !important;
+        left: 21px !important;
+        bottom: 33px;
+    }
+    .home2_workflow_sec #workflow-3 .workflow-number {
+    bottom: 20px !important;
+    left: 49px !important;
+}
+    .home2_workflow_sec #workflow-3:before {
+        width: 194px !important;
+        height: 90px !important;
+        top: 11px !important;
+        left: 34px !important;
+    }
+        .home2_workflow_sec #workflow-3:after {
+        width: 162px !important;
+        height: 300px !important;
+        bottom: 33px !important;
+        left: 104px !important;
+        rotate: -2deg !important;
+    }
+    .home2_workflow_sec #workflow-3 img {
+    max-width: 90px !important;
+    top: 43% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+#workflow-4 .workflow-number {
+    top: 3px !important;
+    left: 60px !important;
+}
+    .home2_workflow_sec #workflow-4 img {
+        width: 100%;
+        max-width: 80px !important;
+    }
+    .home2_workflow_sec #workflow-4:after {
+        width: 155px !important;
+        height: 246px !important;
+        top: 24px !important;
+        left: 118px !important;
+        rotate: 0deg !important;
+    }
+    .home2_workflow_sec #workflow-4:before {
+        content: '';
+        position: absolute;
+        width: 201px !important;
+        height: 200px !important;
+        bottom: 39px !important;
+        left: 46px !important;
+    }
+        .home2_workflow_sec #workflow-5 img {
+            max-width: 70px !important;
+        }
+        .home2_workflow_sec #workflow-5:after {
+        width: 124px !important;
+        height: 300px !important;
+        top: -7px !important;
+        left: 118px !important;
+        right: 32px !important;
+        transform: rotate(-22deg) !important;
+    }
+    .home2_workflow_sec #workflow-5 .workflow-number {
+        bottom: 26px;
+        right: 100px;
+    }
+    
+    
+    
+    .horizontal-accordion .card-header h3 > img:not(.ipadTabIcon){
+        display: none;
+    }
+    .horizontal-accordion .card-header h3 > img.ipadTabIcon{
+        width: 36px;
+    }
+    .ipadTabIcon{
+        display: block !important;
+    }
+    .counter-head h3{
+        font-size: 30px;
+    }
+    .btn-logo:not(.reportDetailipadpro){
+        display: none;
+    }
+    .tab-heading-info {
+        padding-right: 30px;
+    }
+    .btn-logo.reportDetailipadpro{
+        margin: 0 auto;      
+        margin-top: 1.5rem;
+        display: block !important;
+    }
+    .btn-logo.reportDetailipadpro .tab-btn{
+        margin: 0 auto !important;    
+        width: fit-content;
+    }
+    .report-details.ipadpro .progress_bar {
+        padding: 30px 20px 10px 20px;
+    }
+    .item_bar p{
+        margin: 0rem !important;
+    } 
+    .report-details.ipadpro .counter-sec{
+        margin: 0rem;
+    }
+    .report-details.ipadpro{
+        display: block !important;
+        display: flex !important;
+        gap: 8px;
+    }
+    .report-details{
+        display: none;
+    }
+    .swiper-slide.review{
+        padding: 0rem !important;
+    }
+    .counter-sec {
+        padding: 24px 11px;
+    }
+    .report-details.ipadpro .counter.v1 {
+        font-size: 32px!important;
+    }
+    .item_label{
+        width: 75% !important;
+    }
+    .toolMarketingSection {
+            padding-top: 0rem !important;
+        }
+    .home-service-tab .nav-item .nav-link{
+        font-size: 15px !important;
+    }
+    .mySwiper.hero {
+    width: 100% !important;
+    }
+    .about-details{
+        padding: 0rem;
+    }
+    .reviews{
+        padding: 1rem;
+    }
+    .horizontal-accordion .card-header.active h3 > i {
+        height: 34px!important;
+        width: 34px!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .horizontal-accordion .card-header h3{
+        font-size: 1rem!important;
+    }
+    .horizontal-accordion .card-content > div > h4 {
+        font-size: 1.1rem!important;
+    }
+    .horizontal-accordion .card-content h4 > img {
+        max-width: 38px !important;
+    }
+    .heroBannerFormBtn {
+        position: absolute;
+        top: 21px !important;
+        right: 21px !important;
+    }
+    .phoneNumber{
+        display: none;
+    }
+    a.navbar-brand img {
+        width: 95px !important;
+    }
+    .horizontal-accordion .card-content {
+        padding: 28px 20px !important;     
+    }
+    .horizontal-accordion .card-content > div > p{
+        margin: 0.66rem !important;
+    }
+    .horizontal-accordion .card-header h3 > img {
+    max-width: 45px !important;
+        
+    }
+    .card-content > div {
+        width: calc(100vw - 710px) !important;
+    }
+    .horizontal-accordion .choice{
+        min-height: unset !important;
+    }
+    .hide-ipadpro{
+        display: none;
+    }
+    .tab-content.v3 {
+        padding: 45px 40px 68px 50px;
+    }
+    .service-head > h2, .about-details > h2, .strategy-head > h2, .whychooseus-details > h2, .blog-details h2, .test-heading h2, .news-detail h2, .price-head h2, .faq-head h2,
+    .contact-info h3, .about-us-head h2, .pakages-header h2, .seo-ser-head h2, .case-details h2, .case-header h2{
+        font-size: 35px !important;
+        line-height: 1.2;
+    }
+    div > p, div > ul, .whychooseus-details p, a{
+        font-size: 14px !important;
+    }
+/*    .footer_content > ul > li > a {
+   
+    display: flex!important;
+}*/
+.footer_content > p, .footer_content > ul > li > a
+{
+        display: flex!important;
+         line-break: anywhere;
+}
+    
+    .blogs .blog-slider{
+        padding: 0 20px !important;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: -6px;
+    }
+    .swiper-wrapper .case {
+        padding: 100px 0px 0;
+    }
+    .price-btn a {
+        padding: 15px 32px;
+    }
+    .banner-details.services{
+        padding-right: 0;
+    }
+    .tool-name{
+        display: grid;
+    }
+    .tool-info {
+        padding: 38px 40px 45px 40px;
+        height: 635px;
+    }
+    .banner-details.services p{
+        margin: 0;
+        font-size: 18px !important;
+    }
+    .banner-details.services h1 {
+        line-height: 1.2;
+    }
+    .seo-info {
+        padding: 30px 20px 55px 20px;
+    }
+    section.why-choose-us{
+        padding-bottom: 90px;
+    }
+    .footer-bottom .social-icons {
+        width: 22%;
+    }
+    .terms {
+        width: 44%;
+    }
+    .terms ul {
+        gap: 15px;
+        padding-left: 0;
+    }
+    .copyright {
+        width: 38%;
+    }
+    .social-icons i {
+        padding: 0px 6px;
+    }
+    .services-banner .row > .col-lg-7{
+        margin: auto 0;
+    }
+    .footer .container-fluid.v2.bg-color{
+        width: 95%;
+    }
+    .footer .row > .col-lg-6:nth-child(2){
+        margin: auto 0;
+    }
+    .footer-details > div ul > li > a{
+        font-size: 16px;
+    }
+    .footer-col1 p {
+        margin-top: 20px;
+    }
+    .contact-form.v2 {
+        padding: 25px 20px;
+    }
+    .form-field.v6 .submit-btn.v6 input {
+        margin-top: 0px !important;
+    }
+    .banner-details.services{
+        padding-top: 0;
+    }
+    .services-banner {
+        padding: 250px 0px 15px 0px;
+    }
+    .about-img.services img {
+        width: 100%;
+    }
+    section.seo-services{
+        padding-top: 60px;
+        padding-bottom: 52px;
+    }
+    .seo-ser-head h2{
+        padding: 0;
+    }
+    .seo-serv {
+        padding: 30px 0px;
+    }
+    .why-choose-us .row > .col-lg-6:nth-child(2){
+        margin: auto 0;
+    }
+    .faq-head {
+        margin: 0 0 25px;
+    }
+    .navbar-light .navbar-nav .nav-link, .nav-btn a{
+        font-size: 13px !important;
+    }
+    .services-banner .row > div{
+        width: 50%;
+    }
+    .banner-details.services.v2{
+        padding-right: 0;
+    }
+    .contacts-detail > div{
+        display: grid;
+    }
+    .contacts-detail .contact-img img{
+        width: 65px;
+    }
+    .contacts-detail .contact-data h4{
+        font-size: 25px;
+    }
+    .contacts-detail .contact-data p{
+        font-size: 20px !important;
+    }
+    .contact-us .row > .col-lg-6:nth-child(1){
+        margin: auto 0;
+    }
+    .contact-info{
+        padding-right: 0;
+    }
+    .contact-form.v3.main {
+        padding: 25px;
+    }
+    
+    .category-blog-row > .col-lg-4{
+        width: 50%;
+    }
+    
+    .new_footer .row > .footerdiv:nth-child(3){
+        width: 20%;
+    }
+    
+    
+    /*---------------------------- Audit Page Ipad CSS --------------------------*/
+    .gradediv > h2 {
+        width: 36%;
+    }
+    
+    
+    /*------------------------------- Case Study Page CSS --------------------------------*/
+            .case-img > img, .case-details > img{
+                width: 100%;
+            }
+            .count h1 {
+                font-size: 25px;
+            }
+            .container-fluid.v2.bg {
+                padding: 45px 20px;
+            }
+            .count p {
+                font-size: 16px;
+            }
+            .case-details {
+                padding-left: 0;
+            }
+            .case-study-btn a {
+                font-size: 16px;
+                padding: 15px 20px;
+            }
+            .case-study-single{
+                padding-top: 100px;
+            }
+            .case-study-single h1{
+                font-size: 60px;
+                line-height: 1.2;
+            }
+            .about-project p{
+                padding: 0;
+            }
+            .case-counter{
+                margin: 50px 15px 0;
+            }
+            
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

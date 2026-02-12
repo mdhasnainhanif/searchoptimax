@@ -1,0 +1,3199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Search Optimax - Digital Marketing Services</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/intlTelInput.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/mobile-style.css">
+  <link rel="stylesheet" href="assets/css/ipad-style.css">
+  <link rel="stylesheet" href="assets/css/ipadpro-style.css">
+  <link rel="stylesheet" href="assets/css/allpage.css">
+
+  <style>
+    .accordion-content {
+      display: none;
+    }
+
+    .accordion h3.active+.accordion-content {
+      display: block;
+    }
+
+    .dynamic-faq-main {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 20px;
+    }
+
+    .dynamic-faq {
+      width: 49%;
+    }
+
+    @media (max-width: 700px) {
+
+      .dynamic-faq {
+        width: 100%;
+      }
+    }
+
+    .newMenuArea {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .newMenuArea ul.navbar-nav .nav-item a {
+      font-size: .85rem;
+      padding: 0;
+      border-radius: 5px;
+    }
+
+    .newMenuArea ul.topNav .nav-item a {
+      font-size: 13px;
+    }
+
+    .newMenuArea ul.navbar-nav .nav-item a i {
+      font-size: 12px;
+      color: #17c09f;
+      margin-right: 5px;
+    }
+
+    .topNav {
+      margin-bottom: 8px;
+    }
+
+    .newMenuArea ul.navbar-nav.topNav .nav-item {
+      display: flex;
+    }
+
+    .newMenuArea ul.navbar-nav.topNav .nav-item:not(:last-child):after {
+      content: "\2758";
+      position: relative;
+      font-size: 22px;
+      margin-left: 8px;
+      visibility: visible;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.25);
+      line-height: 1;
+    }
+
+    ul.dropdown-menu {
+      padding: 12px 4px;
+      margin-top: 1px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+    }
+
+    .dropdown-menu .drop-down>li>a {
+      border: 0;
+      font-size: 14px !important;
+      transition: all .3s ease;
+      padding: 14px 22px !important;
+      position: relative;
+    }
+
+    .dropdown-menu .drop-down>li>a::before {
+      content: '';
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #17c09f17 !important;
+      border-radius: 8px;
+      color: #000 !important;
+      z-index: -1;
+    }
+
+    .dropdown-menu .drop-down>li>a:hover::before {
+      display: block;
+    }
+
+    .drop-down-v2 .drop-down:nth-child(even) {
+      border-left: 1px solid #0000001f;
+      border-right: 1px solid #0000001f;
+      margin: 0 15px;
+      padding: 0 15px;
+    }
+
+    .drop-down .dropdown-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .drop-down>li:hover .dropdown-item {
+      color: #000;
+    }
+
+    .drop-down .dropdown-item img {
+      height: auto;
+    }
+
+    .drop-down .dropdown-item .nav-heading {
+      margin-bottom: 5px;
+    }
+
+    .drop-down .dropdown-item .nav-para {
+      font-size: 13px;
+      font-weight: 100;
+      margin-bottom: 0;
+      width: 150px;
+      white-space: normal;
+    }
+
+    @media(max-width:1024px) {
+      .external-links-ul {
+        display: none;
+      }
+
+      .footer_content>p {
+        margin-top: 21px;
+      }
+
+      .footer_content-mobile-none {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+      .footerdiv {
+        margin-top: 29px;
+      }
+
+      .custom_envelope {
+        white-space: nowrap;
+      }
+
+    }
+
+    .Call-to-action .custom-submit {
+      z-index: 99;
+      position: absolute;
+      right: 0.4rem;
+      top: 1.33rem;
+    }
+
+    .Call-to-action .input-field.v6 input {
+      padding: 23px 0px 20px 27px;
+    }
+
+    .ctaInput {
+      padding-left: 2.8rem !important;
+      font-size: 0.88rem !important;
+    }
+
+    .input-field i.fa-envelope {
+      animation: none;
+      left: 19px;
+    }
+
+    @media(max-width: 1024px) {
+      .Call-to-action .custom-submit {
+        z-index: 99;
+        position: static;
+        right: unset;
+        top: unset;
+      }
+
+      .Call-to-action .custom-submit button {
+        width: 98%;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .Call-to-action .input-field.v6 input {
+        padding: 15px 0px 15px 27px;
+        background: transparent;
+        border: none;
+        min-height: 52px;
+        border-radius: 50px !important;
+        box-shadow: none !important;
+      }
+
+      .Call-to-action .input-field i.fa-envelope {
+        animation: none;
+        left: 20px;
+        top: 32px;
+      }
+
+      .Call-to-action .form-field .input-field {
+        background: #fff;
+        border-radius: 2rem;
+      }
+
+      .Call-to-action .form-field .input-field input {
+        width: 100%;
+
+      }
+    }
+
+    @media(max-width: 576px) {
+      .cta-para p {
+        margin-top: 1px !important;
+        font-size: 13px !important;
+        ;
+      }
+
+      .cta-head p {
+        text-align: center;
+        margin-bottom: 0.48rem;
+        margin-top: 15px;
+      }
+
+      .cta-para.v2 p {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .Call-to-action .custom-submit {
+        z-index: 99;
+        position: static;
+        right: unset;
+        top: unset;
+      }
+
+      .form-field .input-field {
+        width: 100%;
+        background: #ffffff;
+      }
+
+      .Call-to-action .input-field.v6 input {
+        padding: 15px 0px 15px 27px;
+        background: transparent;
+        border: none;
+        min-height: 52px;
+        border-radius: 50px !important;
+        box-shadow: none !important;
+      }
+
+      .Call-to-action .custom-submit {
+        z-index: 99;
+        margin-top: 0.5rem;
+      }
+
+      .Call-to-action .custom-submit button {
+        width: 98%;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .input-field.v6 {
+        padding: 10px 10px !important;
+        border-radius: 35px;
+      }
+
+      .cta-head h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .cta-para.v2 p {
+        margin-top: 15px;
+        max-width: 16rem;
+      }
+
+      .input-field i.fa-envelope {
+        animation: none;
+        left: 29px;
+        top: 27px;
+      }
+    }
+
+
+    .section-space {
+      padding: 80px 0 !important;
+    }
+
+    .section-heading-para>h2 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #000;
+    }
+
+    section.header {
+      position: absolute;
+      z-index: 999;
+      transition: all ease-in-out 0.4s;
+      width: 100%;
+    }
+
+    .cform {
+      position: relative;
+    }
+
+    .cform i {
+      position: absolute;
+      left: 20px;
+      top: 19px;
+      font-size: 22px;
+      color: #0dbc9e;
+    }
+
+    .inner-banner-form input {
+      padding: 16px 51px;
+    }
+
+    /*    .sub-btn>span {*/
+    /*    background: #ff8357 !important;*/
+    /*}*/
+    .nav-btn a {
+      /*background: #ff72374f;*/
+      background: #17c09f;
+      color: #fff !important;
+
+    }
+
+    .nav-btn a {
+      /* background: #ff72374f; */
+      background: #17c09f !important;
+      color: #fff !important;
+    }
+
+    .nav-btn .sub-btn>span {
+      position: absolute;
+      width: 25%;
+      height: 100%;
+      background: #FFA502 !important;
+      transform: translateY(150%);
+      border-radius: 50%;
+      left: calc((var(--n) - 1) * 25%);
+      transition: 0.5s;
+      transition-delay: calc((var(--n) - 1) * 0.1s);
+      z-index: -1;
+    }
+
+    .nav-btn .sub-btn {
+      white-space: nowrap;
+    }
+
+    .how-it-worksArea-sec::before {
+      content: none;
+    }
+
+    .how-it-worksArea-sec {
+      background: url(https://searchoptimax.com/wp-content/themes/searchoptimax/assets/images/cta-bg.png) no-repeat center center;
+      background-size: cover;
+      background-position: center;
+
+    }
+
+    .how-it-worksArea {
+      position: relative;
+      padding: 3.75rem 0;
+      z-index: 1;
+      padding-bottom: 0rem;
+    }
+
+    .cta-head {
+      z-index: 1;
+      position: relative;
+    }
+
+    .input-field.v6 input {
+      width: 100%;
+    }
+
+    .form-field .input-field {
+      width: 100%;
+    }
+
+    .how-it-work-div {
+      padding: 30px;
+      background: #FFFFFF80;
+      border-radius: 12px;
+      /*box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.1);*/
+      height: 100%;
+    }
+
+    .scroller-item>img {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .accordion h3.active {
+      /* border: 2px solid orange; */
+      /*background: linear-gradient(#fff, #fff) padding-box, linear-gradient(180deg, #FFA502, #FF6348) border-box;*/
+
+      border: 3px solid transparent;
+    }
+
+    .accordion h3 {
+      border: 3px solid #0000001A
+    }
+
+    .accordion h3 {
+      font-size: 18px;
+      padding: 22px;
+      padding-left: 1rem;
+      margin-bottom: 0rem;
+    }
+
+    .accordion {
+      margin-bottom: 20px;
+    }
+
+    .ourBrands img {
+      max-width: 6rem;
+    }
+
+    .how-it-worksArea>ul>li:hover {
+      border: 3px solid #e98c15;
+    }
+
+    .scroller-sticky {
+      position: sticky;
+      top: var(--header-height);
+      padding: 1.75rem 0;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 20px 20px 20px 0px;
+    }
+
+    .accordion-content p {
+      border: none;
+    }
+
+    .accordion h3 {
+      cursor: pointer;
+      position: relative;
+    }
+
+    .accordion h3::after {
+      content: "\2b";
+      font-weight: 900;
+      position: absolute;
+      right: 0.77rem;
+      top: 30%;
+      background: linear-gradient(45deg, #9CFFAC, #00B59C);
+      padding: 4px 10px;
+      border-radius: 50px;
+      height: 1.77rem;
+      width: 1.77rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: #fff;
+      pointer-events: none;
+    }
+
+    .accordion h3.active::after {
+      content: "\f068";
+      background: linear-gradient(45deg, #9CFFAC, #00B59C);
+      color: #fff;
+      pointer-events: none;
+    }
+
+
+    .pricing-head h3 {
+      font-size: 32px;
+      color: #fff;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 0px;
+
+    }
+
+    
+    .pricing-head h2 {
+      font-size: 50px;
+
+      background: #9CFFAC;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      font-weight: 700;
+    }
+
+    .pricing-head {
+      margin-bottom: 0px;
+    }
+
+    .pricing-head h2 span {
+      font-size: 18px;
+      font-weight: 400;
+      /* color: #66667F !important; */
+      background: none;
+      -webkit-text-fill-color: #fff;
+      -webkit-background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+
+    .pricing-list>p {
+      font-size: 20px;
+      font-weight: 600;
+
+    }
+
+    .pricing-list ul {
+      list-style-type: none;
+      /*height: 397px;*/
+    }
+
+    .pricing-list ul li {
+      position: relative;
+      line-height: 2;
+    }
+
+    .pricing-list ul li::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #00B59C;
+      /* Green color */
+    }
+
+    .pricing-list ul li:last-child::after {
+      content: none;
+      /* Remove border for last li */
+    }
+
+    /* Outer wrapper with gradient border effect */
+    .border-wrapper {
+      display: inline-block;
+      padding: 2px;
+      /* border thickness */
+      border-radius: 50px;
+      background: linear-gradient(90deg, #00B59C 0%, #9CFFAC 100%);
+    }
+
+    /* Original nav-tabs inside wrapper */
+    ul.nav.nav-tabs.pricing-nav_tabs {
+      display: inline-flex;
+      border: none;
+      border-radius: 50px;
+      padding: 7px 10px;
+      background-color: white;
+      gap: 8px;
+      width: fit-content;
+    }
+
+
+    /* Tab button styles - remove all transitions and hover effects */
+    ul.pricing-nav_tabs .nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      background: linear-gradient(#fff, #fff) padding-box, linear-gradient(180deg, #FFA502, #FF6348) border-box;
+      border: 3px solid transparent;
+      border-radius: 50px;
+      padding: 10px 30px;
+      background-color: #fff;
+      color: #000;
+      font-weight: 500;
+
+      transition: none !important;
+    }
+
+    ul.pricing-nav_tabs .nav-link.active {
+      background: linear-gradient(90deg, #FF6C2D 0%, #FFD056 100%);
+      color: #fff !important;
+      border: none;
+      background: linear-gradient(#ff6745, #ffa304) padding-box,
+        /* content background */
+        linear-gradient(6deg, #FFA502, #FF6348) border-box;
+      border: 3px solid transparent;
+    }
+
+    /* Active tab styling */
+    ul.pricing-nav_tabs .nav-link.active {
+      background: linear-gradient(90deg, #FF6C2D 0%, #FFD056 100%);
+
+      color: #fff !important;
+      border: none;
+
+
+    }
+
+    .border-wrapper .nav-tabs .nav-link:hover {
+      background: linear-gradient(#ff6745, #ffa304) padding-box, linear-gradient(6deg, #FFA502, #FF6348) border-box;
+      border: 3px solid transparent;
+    }
+
+    /* Tab icons */
+    .tab-icon {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+    }
+
+
+
+    /* Optional: icon sizing if needed */
+    ul.pricing-nav_tabs .nav-link i {
+      font-size: 16px;
+    }
+
+    ul.pricing-nav_tabs .nav-link i,
+    ul.pricing-nav_tabs .nav-link svg {
+      color: black;
+      fill: black;
+      transition: color 0.3s ease, fill 0.3s ease;
+    }
+
+
+    ul.pricing-nav_tabs .nav-link.active i,
+    ul.pricing-nav_tabs .nav-link.active svg {
+      color: white !important;
+      fill: white !important;
+    }
+
+    ul.pricing-nav_tabs .nav-link img.tab-icon {
+      filter: invert(0) brightness(1);
+      transition: filter 0.3s ease;
+    }
+
+    ul.pricing-nav_tabs .nav-link.active img.tab-icon {
+      filter: invert(1) brightness(2) !important;
+    }
+
+    ul.pricing_nav_tabs .nav-link.active {
+      color: #fff !important;
+      font-weight: 600;
+    }
+
+
+    .price-heading-container {
+      z-index: 1;
+      position: relative;
+      background: linear-gradient(180deg, #01B59C 0%, #1AC19E 100%);
+      padding: 1rem 2rem 1rem;
+    }
+
+    .pricing {
+      border-top-left-radius: 0;
+      padding: 0;
+    }
+
+    .pricing-list {
+      padding: 1rem 1.2rem;
+    }
+
+    .pricing-list>ul {
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+
+    .pricing-list>ul {
+      overflow-y: auto;
+    }
+
+    .pricing.v2 {
+      position: relative;
+      box-shadow: 0 10px 56px 0 rgba(0, 0, 0, 0.05);
+      text-align: left;
+      overflow: hidden;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      padding-bottom: 48px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .w_fit {
+      width: fit-content;
+    }
+
+    section.testimonials {
+      background: url(https://searchoptimax.com/wp-content/themes/searchoptimax/assets/images/cta-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding-top: 3rem;
+    }
+
+    .how-it-work-wrapper {
+      background-color: #fff;
+      box-shadow: 0 10px 56px 0 rgba(0, 0, 0, 0.05);
+
+    }
+
+    .seo-package-card {
+      padding: 30px;
+      background: #FFFFFFCC;
+      /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(90deg, rgba(156, 255, 172, 0.2) 0%, rgba(35, 197, 159, 0.2) 100%); */
+      border-radius: 16px;
+      box-shadow: 0 0 25px -10px #000000ba;
+      height: 100%;
+      /* border: 2px solid #00B59C; */
+      border: 3px solid #FFFFFF
+    }
+
+    .seo-package-card>img {
+      max-width: 70px;
+    }
+
+    .seo-package-card>h3 {
+      margin: 20px 0;
+      font-size: 22px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .submit-btn.v3 input {
+      width: 100%;
+      padding: 15px 0px;
+      border: none;
+      background: linear-gradient(180deg, #FFA502 0%, #FF6348 100%);
+      border-radius: 30px;
+      margin-top: 25px;
+      font-weight: 500;
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    /*.seo-card-wrapper {*/
+    /*  background: #fff;*/
+    /*  border-radius: 16px;*/
+    /*  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);*/
+    /*}*/
+
+    .seo-package-card-img h5 {
+      margin: 0rem;
+      font-weight: 600;
+    }
+
+    .how-it-work-div p {
+      margin-top: 0.44rem;
+    }
+
+    .wholecard-wrapper {
+      background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(173.73deg, #FF6348 0%, #FFA502 98.68%), #FFFFFF;
+      border-radius: 16px;
+      box-shadow: 0 5px 40px rgba(0.1, 0, 0.1, 0.2);
+    }
+
+    .pricing-list ul li {
+      font-size: 14px;
+    }
+
+    .wholecard-wrapper {
+      border-radius: 16px 0 0 16px;
+    }
+
+    .pricing {
+      border-radius: 0 16px 16px 0;
+
+    }
+
+    .seo-package-card-img img {
+      width: 70px;
+    }
+
+    .sectionSpaceBg {
+      position: relative;
+    }
+
+    .sectionSpaceBg::before {
+      content: "";
+      position: absolute;
+      left: 0rem;
+      bottom: 0rem;
+      height: 100%;
+      width: 100%;
+      max-height: 66rem;
+      /*background: url(../wp-content/themes/searchoptimax/assets/images/seo-new/seo-package-bg.png) no-repeat center center;*/
+      background-position: center;
+      z-index: -1;
+    }
+
+    .how-it-worksArea>ul>li {
+      border-radius: 3.3125rem;
+    }
+
+    @media(max-width: 1440px) {
+      .inner-page-banner::before {
+        max-height: 33rem;
+        max-width: 54.3rem;
+      }
+
+      li.nav-item {
+        white-space: nowrap;
+      }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1300px) {
+
+      .inner-page-banner::before {
+        /*background: url(https://searchoptimax.com/wp-content/themes/searchoptimax/assets/images/seo-new/banner-before-shape.png) no-repeat center center;*/
+        background: none !important;
+      }
+
+    }
+
+    @media(max-width: 576px) {
+      section.new_bg_image {
+        padding-bottom: 2.5rem !important;
+        padding-top: 112px !important;
+      }
+
+      .mobileColumnReverse {
+        margin-top: 0rem !important;
+      }
+
+      .marginTopZeroMobile {
+        margin-top: 0rem !important;
+      }
+
+      .marginTopOneMobile {
+        margin-top: 1.5rem !important;
+      }
+
+      .section-heading-para>h2 {
+        margin-bottom: 20px;
+      }
+
+      section.section1 {
+        padding: 15px 0 46px !important;
+      }
+
+      .section-heading-para.mb-zero>h2 {
+        margin-bottom: 0px;
+      }
+
+      .pricing.v2 {
+        margin-top: 1.8rem !important;
+      }
+
+      .mb-zero {
+        margin-bottom: 0px;
+      }
+
+      section.section2 {
+        padding-bottom: 51px !important;
+      }
+
+      section.section3 {
+        margin-bottom: 0rem !important;
+        padding-top: 42px !important;
+      }
+
+      div.section-heading-para>p {
+        margin-bottom: 10px;
+      }
+
+      section.section4 {
+        padding: 49px 0 50px !important;
+      }
+
+      section.section5 {
+        padding: 41px 0 50px !important;
+      }
+
+      section.section-space.pt-0.faqSection.section5 {
+        padding: 8px 0 8px !important;
+      }
+
+      .mobile-banner-img {
+        margin-top: 5px !important;
+      }
+
+      .sub-btn1 {
+        margin-top: 26px;
+      }
+
+      .sub-btn1 {
+        margin-top: 27px;
+      }
+
+      .cform input {
+        padding: 16px 49px;
+      }
+
+      .cform i {
+        font-size: 16px;
+        top: 19px;
+      }
+    }
+
+    @media(max-width: 768px) {
+      .accordion h3::after {
+        right: 6px;
+        top: 50%;
+        background: transparent;
+        padding: 0;
+        transform: translate(0px, -50%);
+      }
+
+      section.faqSection {
+        padding-bottom: 2rem;
+      }
+
+      .how-it-work-div>h3 {
+        font-size: 18px;
+      }
+
+      .contact-form.v2 .submit-btn button {
+        margin: 0rem !important;
+      }
+
+      .section-space {
+        padding: 60px 0;
+      }
+
+      section.whyChoose {
+        padding-top: 2rem;
+      }
+
+      .imgCenterOnMobile {
+        margin: 0 auto;
+        display: block;
+      }
+
+      .inner-page-banner::before {
+        content: none;
+      }
+
+      .inner-page-banner {
+        padding-top: 6.55rem;
+      }
+
+      .mobile-navbar {
+        border-bottom: 1px solid #dfdfdf;
+      }
+
+      .industries-slide .swiper-slide .how-it-work-div h3 {
+        white-space: nowrap;
+      }
+    }
+
+    @media(max-width: 769px) {
+      .sub-btn {
+        width: 100%;
+        margin-left: unset;
+
+        width: max-content !important;
+      }
+
+    }
+
+
+
+    @media (max-width: 768px) {
+      .mt3OnMobile {
+        margin-bottom: 3rem !important;
+        padding-top: 4rem !important;
+      }
+
+      /*.how-it-worksArea > ul {*/
+      /*   flex-direction: column;*/
+      /*   gap: 1rem;*/
+      /* }*/
+      .how-it-worksArea>ul {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 0rem;
+
+      }
+
+      .how-it-worksArea {
+        padding: 0.75rem 0;
+      }
+
+      .wholecard-wrapper {
+        border-radius: 32px !important;
+      }
+
+      .sub-btn.gradient {
+        background: linear-gradient(180deg, #FFA502 0%, #FF6348 100%);
+        margin: 0px 86px !important;
+      }
+
+      .sub-btn {
+
+        width: fit-content !important;
+      }
+
+      .cta-image img {
+
+        display: none !important;
+      }
+
+      .how-it-worksArea>ul>li {
+        width: 100% !important;
+        min-width: auto !important;
+        background: linear-gradient(rgb(255, 210, 129) 0%, rgb(254, 177, 162) 100%) !important;
+        border: 3px solid #e98c15;
+      }
+
+
+      /* Disable hover on small screens */
+      .how-it-worksArea>ul>li:hover {
+        background: none !important;
+        transform: none !important;
+        box-shadow: none !important;
+      }
+
+      .single-how-it-works>.how-it-works-details>i {
+        display: none;
+      }
+
+      .single-how-it-works>p {
+
+        transform: none !important;
+        position: unset !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        width: auto;
+      }
+
+
+
+
+    }
+
+    @media (max-width: 430px) {
+      .sub-btn.gradient {
+        white-space: nowrap;
+
+      }
+    }
+
+
+
+    .custom-submit {
+      position: relative;
+      z-index: 99;
+    }
+
+    .custom-button {
+      /*background: #17c09f5c!important; */
+      /*background:#ff72374f !important;*/
+
+      /*background: #FF8745!important;*/
+      background: linear-gradient(45deg, #FF6348, #FFA502) !important;
+      /*background: linear-gradient(180deg, #FFA502 0%, #FF6348 100%)!important;*/
+
+      /*background:   #ff72374f;*/
+      border: none;
+      padding: 14px 40px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: 600 !important;
+      color: #fff;
+      /*box-shadow: 1px 1px 3px 1px #28a745a1;*/
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      border: none;
+    }
+
+    .custom-button span {
+      position: absolute;
+      width: 25%;
+      height: 100%;
+      background: #49D4A9;
+      transform: translateY(150%);
+      border-radius: 50%;
+      left: calc((var(--n) - 1) * 25%);
+      transition: 0.5s;
+      transition-delay: calc((var(--n) - 1) * 0.1s);
+      z-index: -1;
+    }
+
+    .custom-button span:nth-child(1) {
+      --n: 1;
+    }
+
+    .custom-button span:nth-child(2) {
+      --n: 2;
+    }
+
+    .custom-button span:nth-child(3) {
+      --n: 3;
+    }
+
+    .custom-button span:nth-child(4) {
+      --n: 4;
+    }
+
+    .custom-button:hover span {
+      transform: translateY(0) scale(2);
+    }
+
+    .custom-button:hover {
+      /*background: transparent;*/
+      border: none !important;
+      color: #fff !important;
+      transition: 0.5s all;
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+
+      #advance,
+      #basic,
+      #premium {
+        padding-top: 1.5rem;
+      }
+    }
+
+    @media only screen and (max-device-width: 992px) {
+      .inner-page-banner {
+        height: 50vh;
+
+      }
+    }
+
+    @media only screen and (min-device-width: 992px) and (max-device-width: 1023px) {
+      .inner-banner-form button {
+        white-space: nowrap;
+      }
+
+      .mySwiper.hero {
+        width: 100% !important;
+      }
+
+      .inner-page-banner {
+        height: 72vh;
+
+      }
+    }
+
+    @media only screen and (min-device-width: 1101px) and (max-device-width: 1199px) {
+
+      .how-it-work-div>h3 {
+        font-size: 18px;
+      }
+    }
+
+    @media only screen and (min-device-width: 1101px) and (max-device-width: 1208px) {
+      .how-it-worksArea>ul>li {
+        width: 100% !important;
+        min-width: auto !important;
+        background: linear-gradient(rgb(255, 210, 129) 0%, rgb(254, 177, 162) 100%) !important;
+        border: 3px solid #e98c15;
+        max-width: 22rem;
+      }
+
+      .custom-button {
+        white-space: nowrap;
+      }
+
+
+      #howItWorksList {
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+      }
+
+      .how-it-worksArea>ul {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 0rem;
+
+      }
+
+      .how-it-worksArea {
+        padding: 0.75rem 0;
+      }
+
+      .single-how-it-works>.how-it-works-details>i {
+        display: none;
+      }
+
+      .single-how-it-works>p {
+        transform: none !important;
+        position: unset !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        width: auto;
+      }
+
+    }
+
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1100px) {
+
+
+      .how-it-work-div>h3 {
+
+        font-size: 18px;
+      }
+
+      .hidecard_ipad {
+        display: none;
+      }
+
+      .hideondesktop {
+        display: block !important;
+      }
+
+      .how-it-worksArea>ul>li {
+        width: 100% !important;
+        min-width: auto !important;
+        background: linear-gradient(rgb(255, 210, 129) 0%, rgb(254, 177, 162) 100%) !important;
+        border: 3px solid #e98c15;
+        max-width: 22rem;
+      }
+
+      #howItWorksList {
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+      }
+
+
+
+      .how-it-worksArea>ul {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 0rem;
+
+      }
+
+      .how-it-worksArea {
+        padding: 0.75rem 0;
+      }
+
+      .single-how-it-works>.how-it-works-details>i {
+        display: none;
+      }
+
+      .single-how-it-works>p {
+        transform: none !important;
+        position: unset !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        width: auto;
+      }
+
+
+      .inner-banner-form button {
+        white-space: nowrap;
+      }
+
+      .inner-page-banner {
+        height: 50vh;
+
+      }
+
+    }
+
+
+
+    @media only screen and (min-device-width: 769px) and (max-device-width: 1023px) {
+
+      .how-it-worksArea>ul>li {
+        width: 100% !important;
+        min-width: auto !important;
+        background: linear-gradient(rgb(255, 210, 129) 0%, rgb(254, 177, 162) 100%) !important;
+        border: 3px solid #e98c15;
+        max-width: 22rem;
+      }
+
+      #howItWorksList {
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+      }
+
+
+
+      .how-it-worksArea>ul {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 0rem;
+
+      }
+
+      .how-it-worksArea {
+        padding: 0.75rem 0;
+      }
+
+      .single-how-it-works>.how-it-works-details>i {
+        display: none;
+      }
+
+      .single-how-it-works>p {
+        transform: none !important;
+        position: unset !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        width: auto;
+      }
+
+
+
+
+    }
+
+    .hideondesktop {
+      display: none !important;
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+      .inner-page-banner {
+        height: auto;
+      }
+    }
+
+    @media only screen and (max-width: 576px) {
+
+      .inner-page-banner {
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light main-nav">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse newMenuArea" id="navbarNavDropdown">
+
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Design
+                </a>
+                <ul class="dropdown-menu design" aria-labelledby="navbarDropdownMenuLink">
+                  <div class="drop-down-v2">
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="design/web-design.html">
+                          <img src="assets/images/icon.png" alt="">
+                          <div>
+                            <p class="nav-heading">Web Design</p>
+                            <p class="nav-para">Professional Web Design Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="design/app-design.html">
+                          <img src="assets/images/icon1.png" alt="">
+                          <div>
+                            <p class="nav-heading">App Design</p>
+                            <p class="nav-para">Android & IOS App Design Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="design/landing-page-design.html">
+                          <img src="assets/images/icon2.png" alt="">
+                          <div>
+                            <p class="nav-heading">Landing Page Design</p>
+                            <p class="nav-para">Affordable Landing Page Design Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="design/shopify-design.html">
+                          <img src="assets/images/icon3.png" alt="">
+                          <div>
+                            <p class="nav-heading">Shopify Design</p>
+                            <p class="nav-para">Custom Shopify Design Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="design/amazon-store-setup.html">
+                          <img src="assets/images/icon4.png" alt="">
+                          <div>
+                            <p class="nav-heading">Amazon Store Setup</p>
+                            <p class="nav-para">Expert Amazon Store Setup Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="design/2d-3d-animation-services.html">
+                          <img src="assets/images/icon5.png" alt="">
+                          <div>
+                            <p class="nav-heading">2D 3D Animation</p>
+                            <p class="nav-para">2D & 3D Animation Production Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Development
+                </a>
+                <ul class="dropdown-menu development" aria-labelledby="navbarDropdownMenuLink">
+                  <div class="drop-down-v2">
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="development/custom-web-development-services.html">
+                          <img src="assets/images/icon6.png" alt="">
+                          <div>
+                            <p class="nav-heading">Web Development</p>
+                            <p class="nav-para">Full-Stack Web Development Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="development/ecommerce-website-development.html">
+                          <img src="assets/images/icon7.png" alt="">
+                          <div>
+                            <p class="nav-heading">Ecommerce Development</p>
+                            <p class="nav-para">Ecommerce Website Development Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="development/wordpress-development.html">
+                          <img src="assets/images/icon8.png" alt="">
+                          <div>
+                            <p class="nav-heading">Wordpress Development</p>
+                            <p class="nav-para">Custom Wordpress Website Development Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="development/shopify-development.html">
+                          <img src="assets/images/icon9.png" alt="">
+                          <div>
+                            <p class="nav-heading">Shopify Development</p>
+                            <p class="nav-para">Shopify Store Development Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="development/wix.html">
+                          <img src="assets/images/icon0.png" alt="">
+                          <div>
+                            <p class="nav-heading">Wix</p>
+                            <p class="nav-para">Wix Web Development Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="development/square-space.html">
+                          <img src="assets/images/icon11.png" alt="">
+                          <div>
+                            <p class="nav-heading">Square Space</p>
+                            <p class="nav-para">Squarespace Web Development Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="development/amazon-store-development.html">
+                          <img src="assets/images/icon12.png" alt="">
+                          <div>
+                            <p class="nav-heading">Amazon Store Development</p>
+                            <p class="nav-para">Expert Amazon Storefront Development</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="development/native-development.html">
+                          <img src="assets/images/icon9.png" alt="">
+                          <div>
+                            <p class="nav-heading">Native Development</p>
+                            <p class="nav-para">Android & IOS Native Development</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="development/hybrid-development.html">
+                          <img src="assets/images/icon15.png" alt="">
+                          <div>
+                            <p class="nav-heading">Hybrid Development</p>
+                            <p class="nav-para">Cross-Platform App Development</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Optimize
+                </a>
+
+                <ul class="dropdown-menu optimize" aria-labelledby="navbarDropdownMenuLink">
+                  <div class="drop-down-v2">
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="seo.html">
+                          <img src="assets/images/icon17.png" alt="">
+                          <div>
+                            <p class="nav-heading">SEO</p>
+                            <p class="nav-para">Search Engine Optimization Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="sem-ppc.html">
+                          <img src="assets/images/icon18.png" alt="">
+                          <div>
+                            <p class="nav-heading">SEM PPC</p>
+                            <p class="nav-para">SEM(PPC) Campaign Management</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="smm.html">
+                          <img src="assets/images/icon19.png" alt="">
+                          <div>
+                            <p class="nav-heading">SMM</p>
+                            <p class="nav-para">Social Media Marketing Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="content-writing.html">
+                          <img src="assets/images/icon27.png" alt="">
+                          <div>
+                            <p class="nav-heading">Content Writing</p>
+                            <p class="nav-para">Professional Content & Copywriting Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="content-marketing.html">
+                          <img src="assets/images/icon20.png" alt="">
+                          <div>
+                            <p class="nav-heading">Content Marketing</p>
+                            <p class="nav-para">Content Marketing Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="guest-posting.html">
+                          <img src="assets/images/icon21.png" alt="">
+                          <div>
+                            <p class="nav-heading">Guest Posting</p>
+                            <p class="nav-para">Guest Posting & Outreaching Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="link-building.html">
+                          <img src="assets/images/icon22.png" alt="">
+                          <div>
+                            <p class="nav-heading">Link Building</p>
+                            <p class="nav-para">High Quality Link Building Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                    <div class="drop-down">
+                      <li>
+                        <a class="dropdown-item" href="local-seo.html">
+                          <img src="assets/images/icon23.png" alt="">
+                          <div>
+                            <p class="nav-heading">Local SEO</p>
+                            <p class="nav-para">Local SEO & GMB Optimization Services</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="orm.html">
+                          <img src="assets/images/icon24.png" alt="">
+                          <div>
+                            <p class="nav-heading">ORM</p>
+                            <p class="nav-para">Online Brand Reputation Management</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="app-store.html">
+                          <img src="assets/images/icon25.png" alt="">
+                          <div>
+                            <p class="nav-heading">App Store</p>
+                            <p class="nav-para">Application Optimization Services</p>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="case-study.html">Case Studies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="write-for-us.html">Write For Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tool.html">Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item phoneNumber">
+                <a class="nav-link" href="tel:(646) 825-2046"><i class="fa-solid fa-phone"></i> (646) 825-2046</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav-btn">
+            <a href="#" class="text-uppercase sub-btn" data-bs-toggle="modal"
+              data-bs-target="#salesinquirymodelforinnerpages">
+              Get A Quote
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="mobile-menu">
+    <!-- Navbar with Logo and Hamburger Icon -->
+    <div class="navbar d-flex justify-content-between align-items-center mobile-navbar">
+      <div>
+        <a class="mobileLogo" href="index.html"><img width="110" src="assets/images/logo.png" alt=""></a>
+      </div>
+      <input type="checkbox" id="menyAvPaa">
+      <label id="burger" for="menyAvPaa">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+
+      <div class="menu1" id="meny">
+        <div class="logo p-3">
+          <img src="assets/images/logo.png" alt="Logo" style="max-width: 150px; height: auto;">
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdownToggle">
+            <a class="nav-link dropdownBtn" href="javascript:void(0);" id="navbarDropdown" role="button">
+              Design
+            </a>
+            <ul class="mobileDropdownUl d-none">
+              <li><a class="dropdown-item" href="design/web-design.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Web Design</a></li>
+              <li><a class="dropdown-item" href="design/app-design.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;App Design</a></li>
+              <li><a class="dropdown-item" href="design/landing-page-design.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Landing Page Design</a></li>
+              <li><a class="dropdown-item" href="design/shopify-design.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Shopify Design</a></li>
+              <li><a class="dropdown-item" href="design/amazon-store-setup.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Amazon Store Setup</a></li>
+              <li><a class="dropdown-item v2" href="design/2d-3d-animation-services.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;2D 3D Animation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdownToggle">
+            <a class="nav-link dropdownBtn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Development
+            </a>
+            <ul class="mobileDropdownUl d-none">
+              <li><a class="dropdown-item" href="development/custom-web-development-services.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Web Development</a></li>
+              <li><a class="dropdown-item" href="development/ecommerce-website-development.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Ecommerce Development </a></li>
+              <li><a class="dropdown-item" href="development/wordpress-development.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Wordpress Development</a></li>
+              <li><a class="dropdown-item" href="development/shopify-development.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Shopify Development</a></li>
+              <li><a class="dropdown-item" href="development/wix.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Wix</a></li>
+              <li><a class="dropdown-item" href="development/square-space.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Square Space</a></li>
+              <li><a class="dropdown-item" href="local-seo.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Local SEO</a></li>
+              <li><a class="dropdown-item" href="orm.html"><i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;ORM</a>
+              </li>
+              <li><a class="dropdown-item" href="app-store.html"><i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;App
+                  Store</a></li>
+              <li><a class="dropdown-item" href="content-writing.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Content Writing</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdownToggle">
+            <a class="nav-link dropdownBtn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Optimize
+            </a>
+            <ul class="mobileDropdownUl d-none">
+              <li><a class="dropdown-item" href="seo.html"><i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;SEO</a>
+              </li>
+              <li><a class="dropdown-item" href="sem-ppc.html"><i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;SEM
+                  PPC</a></li>
+              <li><a class="dropdown-item" href="smm.html"><i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;SMM</a>
+              </li>
+              <li><a class="dropdown-item" href="content-marketing.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Content Marketing</a></li>
+              <li><a class="dropdown-item" href="guest-posting.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Guest Posting</a></li>
+              <li><a class="dropdown-item" href="link-building.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Link Building</a></li>
+              <li><a class="dropdown-item" href="local-seo.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Local SEO</a></li>
+              <li><a class="dropdown-item" href="orm.html"><i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;ORM</a>
+              </li>
+              <li><a class="dropdown-item" href="app-store.html"><i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;App
+                  Store</a></li>
+              <li><a class="dropdown-item" href="content-writing.html"><i
+                    class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Content Writing</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="case-study.html">Case Studies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="write-for-us.html">Write For Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tool.html">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:(646) 825-2046"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;(646)
+              825-2046</a>
+          </li>
+          <li class="nav-item">
+            <div class="nav-btn">
+              <a href="#" class="text-uppercase sub-btn" data-bs-toggle="modal"
+                data-bs-target="#salesinquirymodelforinnerpages">
+                Get A Quote
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Sliding Menu -->
+  </section>
+
+  <section class="inner-page-banner section-section new_bg_image">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 my-auto">
+          <p class="shortheading">Boost Rankings. Drive Traffic. Maximize ROI.</p>
+          <h1>Search Optimax – Professional SEO Company That Drives Results</h1>
+          <p>Search Optimax is the SEO services provider that boosts your website's visibility on search engines. We use
+            proven strategies to improve rankings, drive targeted traffic, and increase conversions. Submit your email
+            below and get a custom SEO proposal to grow your online presence!</p>
+          <form method="post" action="" class="inner-banner-form" id="innerbanner_form">
+            <div class="form-group row">
+              <div class="col-sm-7">
+                <div class="cform">
+                  <input type="email" class="form-control" name="email" placeholder="Enter Your Email Address" required>
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+              </div>
+              <!--<div class="col-sm-5">-->
+              <!--  <button type="submit" class="btn btn-primary">Send Your Email</button>-->
+              <!--  <div class="submit-btn">-->
+              <!--    <button type="submit" class="sub-btn">Send Your Email-->
+              <!--        <span></span>-->
+              <!--        <span></span>-->
+              <!--        <span></span>-->
+              <!--        <span></span>-->
+              <!--    </button>-->
+
+              <!--</div>-->
+
+
+
+
+              <!--</div>-->
+              <div class="col-sm-5">
+                <div class="custom-submit">
+                  <button type="submit" class="custom-button">
+                    Send Your Email
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="swiper mySwiper hero wow animate__animated animate__fadeIn" data-wow-duration="1s"
+            data-wow-delay=".5s">
+            <div class="swiper-wrapper hero">
+              <div class="swiper-slide hero"><img src="assets/images/brandSlider/1.svg" alt=""></div>
+              <div class="swiper-slide hero"><img src="assets/images/brandSlider/2.svg" alt=""></div>
+              <div class="swiper-slide hero"><img src="assets/images/brandSlider/3.svg" alt=""></div>
+              <div class="swiper-slide hero"><img src="assets/images/brandSlider/4.svg" alt=""></div>
+              <div class="swiper-slide hero"><img style="max-width: 9rem;" src="assets/images/brandSlider/5.svg" alt="">
+              </div>
+              <div class="swiper-slide hero"><img style="max-width: 9rem;" src="assets/images/brandSlider/7.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-lg-6 col-sm-12 d-none d-sm-block">
+          <img src="assets/images/seo/banner-seo.webp" alt="" width="100%" style="
+    position: relative;
+    z-index: 1;
+">
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!----------------------- About Info Section ------------------------->
+  <section class="section-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <img src="assets/images/seo-side.gif" alt="" width="100%">
+        </div>
+        <div class="col-lg-6 col-sm-12 my-auto">
+          <div class="section-heading-para">
+            <h5>Trusted SEO Company</h5>
+            <h2>Data-Driven SEO Services: That Increased Revenue</h2>
+            <p>At Search Optimax, we know how important it is for small businesses to stand out online. Our SEO services
+              are designed to help you connect with the right customers and grow your brand's visibility. We focus on
+              creating a tailored SEO strategy that helps your business attract high-quality leads and improve your
+              online presence.</p>
+            <p>By optimizing your website's content and targeting relevant keywords, we ensure your business shows up
+              where it matters most. Our all-in-one SEO services are built to increase traffic, improve user experience,
+              and ultimately drive more sales.</p>
+            <p>As an experienced SEO firm, we provide industrywise SEO solutions to help you reach your goals and grow
+              in today's competitive digital world.</p>
+            <a href="#" class="button button--rayen" data-text="Read More"><span>Contact Us</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------- Strategy Section ------------------------->
+  <section class="section-space how-it-worksArea-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 text-center mb-4">
+          <div class="section-heading-para mb-zero">
+            <h2>Our Comprehensive SEO Services</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="how-it-worksArea">
+            <ul id="howItWorksList">
+              <li class="active">
+                <div class="single-how-it-works">
+                  <img loading="lazy" src="assets/images/seo-new/process-icon1.png" alt="briefing" />
+                  <div class="how-it-works-details">
+                    <h3>Technical SEO Audit</h3>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                  <p>Comprehensive technical analysis of your website to identify and fix issues that impact search
+                    engine rankings.</p>
+                </div>
+              </li>
+              <li>
+                <div class="single-how-it-works">
+                  <img loading="lazy" src="assets/images/seo-new/process-icon2.png" alt="briefing" />
+                  <div class="how-it-works-details">
+                    <h3>On-Page Optimization</h3>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                  <p>Optimize your website's content, meta tags, headings, and internal linking structure for better
+                    search visibility.</p>
+                </div>
+              </li>
+              <li>
+                <div class="single-how-it-works">
+                  <img loading="lazy" src="assets/images/seo-new/process-icon.png" alt="briefing" />
+                  <div class="how-it-works-details">
+                    <h3>Keyword Research & Strategy</h3>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                  <p>In-depth keyword research to identify high-value opportunities and create content strategies that
+                    drive traffic.</p>
+                </div>
+              </li>
+
+              <li class="">
+                <div class="single-how-it-works">
+                  <img loading="lazy" src="assets/images/seo-new/process-icon3.png" alt="briefing" />
+                  <div class="how-it-works-details">
+                    <h3>Content Marketing</h3>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                  <p>Create high-quality, SEO-optimized content that engages your audience and ranks well in search
+                    results.</p>
+                </div>
+              </li>
+              <li class="">
+                <div class="single-how-it-works">
+                  <img loading="lazy" src="assets/images/seo-new/process-icon4.png" alt="briefing" />
+                  <div class="how-it-works-details">
+                    <h3>Link Building</h3>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                  <p>Build high-quality backlinks from authoritative websites to improve your domain authority and
+                    search rankings.</p>
+                </div>
+              </li>
+              <li class="">
+                <div class="single-how-it-works">
+                  <img loading="lazy" src="assets/images/seo-new/process-icon5.png" alt="briefing" />
+                  <div class="how-it-works-details">
+                    <h3>Local SEO Optimization</h3>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                  <p>Optimize your business for local search results to attract customers in your geographic area.</p>
+                </div>
+              </li>
+
+            </ul>
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-space sectionSpaceBg section2">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-heading-para mb-zero text-center">
+          <h2>SEO Packages for Services Business</h2>
+        </div>
+        <div class="col-md-9 row mt-3">
+          <div class="col-lg-12 pe-0" style="width: 100%; display: flex; justify-content: center;">
+
+            <div class="border-wrapper">
+              <ul class="nav nav-tabs pricing-nav_tabs justify-content-center" id="planTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="basic-tab" data-bs-toggle="tab" data-bs-target="#basic" type="button"
+                    role="tab">
+                    <img src="assets/images/seo-new/basic.svg" alt="Basic Icon" class="tab-icon me-2" />
+                    Basic
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="advance-tab" data-bs-toggle="tab" data-bs-target="#advance"
+                    type="button" role="tab">
+                    <img src="assets/images/seo-new/advanced1.svg" alt="Advance Icon" class="tab-icon me-2" />
+                    Standard
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="premium-tab" data-bs-toggle="tab" data-bs-target="#premium" type="button"
+                    role="tab">
+                    <img src="assets/images/seo-new/premium.svg" alt="Premium Icon" class="tab-icon me-2" />
+                    Premium
+                  </button>
+                </li>
+              </ul>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        <div class="col-md-9 row mobileColumnReverse pricingNew" style="
+    box-shadow: 1px 0px 20px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 16px 32px 0 16px;
+    padding: 1px;
+    overflow: hidden;
+    margin-top: 33px;
+">
+          <!-- Left Column: Feature Cards -->
+          <div class="col-lg-6 pe-0 wholecard-wrapper p-0 marginTopOneMobile">
+            <div class="seo-card-wrapper p-4">
+              <div class="d-flex flex-column gap-4 ">
+                <!-- Card 1 -->
+                <div class="how-it-work-div  seo-package-card d-flex flex-wrap">
+                  <div class="seo-package-card-img d-flex align-items-center">
+                    <img src="assets/images/seo-new/pricing-card1.png" alt="" width="100%">
+                    <h5 class="ms-2" style="color: #212529;">Transparent Pricing</h5>
+                  </div>
+                  <p class="mt-3" style="color: #66667F;">To ensure that our quotation is in line with your aims, we
+                    take the time to understand your project's scope and particular requirements. No matter whether you
+                    need a simple setup or a comprehensive e-commerce solution, our flexible pricing will guarantee that
+                    you get the most value for your money.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="how-it-work-div seo-package-card d-flex flex-wrap">
+                  <div class="seo-package-card-img d-flex align-items-center">
+                    <img src="assets/images/seo-new/pricing-card2.png" alt="" width="100%">
+                    <h5 class="ms-2" style="color: #212529;">Affordable, Tailored Estimates</h5>
+                  </div>
+                  <p class="mt-3" style="color: #66667F;">We tailor our pricing approach to meet your company's specific
+                    requirements. Considerations like design intricacy, functionality, and integration needs are part of
+                    Search Optimax comprehensive SEO project assessment. Because of our meticulous methodology, we are
+                    able to provide you with tailored quotations that accurately represent the extent of your project.
+                    Our best SEO services are affordable, so you can upgrade or optimize your website with confidence
+                    that you're getting high-quality work done without breaking the bank.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="how-it-work-div seo-package-card  d-flex flex-wrap">
+                  <div class="seo-package-card-img d-flex align-items-center">
+                    <img src="assets/images/seo-new/pricing-card3.png" alt="" width="100%">
+                    <h5 class="ms-2" style="color: #212529;">Packed with Value</h5>
+                  </div>
+                  <p class="mt-3" style="color: #66667F;">Offering unparalleled value is our belief regarding our SEO
+                    services. At Search Optimax, we aim to provide our customers with the best possible results at a
+                    reasonable price. There will be no unpleasant surprises regarding pricing since we are completely
+                    transparent about everything.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 ps-0 pe-0">
+
+            <!-- Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content h-100" id="planTabsContent">
+              <!-- Basic Tab Pane -->
+              <div class="tab-pane fade  h-100" id="basic" role="tabpanel">
+                <div class="pricing v2 m-0">
+                  <div class="price-heading-container">
+                    <div class="pricing-head d-flex align-items-center gap-2">
+                      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#a)">
+                          <path
+                            d="m31.462 15.416-3.939-3.902a5.22 5.22 0 0 0 2.878-4.965 5.232 5.232 0 0 0-9.925-2.086L16.64.522a1.83 1.83 0 0 0-2.558 0l-3.978 3.954a.64.64 0 0 0 .282 1.075 3.93 3.93 0 0 1 2.212 1.535 3.99 3.99 0 0 1-.14 4.735 3.938 3.938 0 0 1-6.907-1.434.64.64 0 0 0-1.074-.281l-3.94 3.967a1.79 1.79 0 0 0-.025 2.533l.025.026 3.94 3.839a5.235 5.235 0 0 0-2.25 7.05 5.23 5.23 0 0 0 9.297 0l3.837 3.941a1.79 1.79 0 0 0 2.532.026l.026-.026 3.951-3.953a.64.64 0 0 0-.28-1.075 3.93 3.93 0 0 1-2.213-1.536 3.99 3.99 0 0 1 .14-4.734 3.938 3.938 0 0 1 6.906 1.433.64.64 0 0 0 .448.448.64.64 0 0 0 .614-.167l3.977-3.966a1.79 1.79 0 0 0 .027-2.534q-.014-.012-.027-.026z"
+                            fill="#fff" />
+                        </g>
+                        <defs>
+                          <clipPath id="a">
+                            <path fill="#fff" d="M0 0h32v32H0z" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <h3> Basic </h3>
+                      <!--<h2>  $2999<span> /Starting From &gt;&gt;</span></h2>-->
+                    </div>
+                  </div>
+                  <div class="pricing-list">
+                    <p>$800 per month + $499 onetime payment for SEO Setup</p>
+                    <ul>
+                      <li><img src="assets/images/bullet.png" alt=""> 10 - 15 keywords optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Up to 08 pages targeting</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Focused on Ranking Regionally</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Competitive Analysis</li>
+                      <li><img src="assets/images/bullet.png" alt=""> 2 Guest Post Monthly</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Keyword Research (National)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Analytics Setup & Configuration</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Title Tag & Meta Tag Creation</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Technical SEO - (Robots.txt, Sitemap, etc.)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Internal Link Building (Crosslinking)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Publish 03 on site blog per month</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Content Editing & Optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> On-Site Optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Offsite Link Building</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly KPI Report</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly Personalized Review Call</li>
+                    </ul>
+
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <div class="custom-submit">
+                      <button type="submit " data-bs-toggle="modal" data-bs-target="#salesinquirymodelforinnerpages"
+                        class="custom-button">
+                        Get In Touch
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Advance Tab Pane -->
+              <div class="tab-pane fade show active h-100" id="advance" role="tabpanel">
+                <div class="pricing v2 m-0">
+                  <div class="price-heading-container">
+                    <div class="pricing-head d-flex align-items-center gap-2">
+                      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1522_6974)">
+                          <path
+                            d="M31.517 1.25339C31.4311 0.867986 31.1314 0.56594 30.7432 0.479943C21.132 -1.54607 13.9879 3.09447 9.98069 9.6597C7.09913 9.45919 4.81158 10.0737 3.14412 11.4722C1.29691 13.032 0.236474 15.5789 0.00202941 19.0447C-0.0240249 19.4587 0.202645 19.8441 0.575222 20.0186C0.715915 20.0863 0.856608 20.1123 1.0025 20.1123C1.25523 20.1123 1.50274 20.0186 1.69557 19.8389C3.75641 17.878 5.41606 17.365 7.3988 18.1202L13.9097 24.6278C14.6444 26.607 14.1364 28.2683 12.1901 30.3073C11.9035 30.6068 11.8358 31.0547 12.0104 31.4271C12.1771 31.7813 12.5314 32 12.9171 32H12.9848C16.4474 31.7656 18.9954 30.7058 20.5564 28.8542C21.9581 27.1876 22.5651 24.8882 22.3567 21.9951C28.9145 17.9796 33.5493 10.8545 31.517 1.25339ZM19.1465 9.66183C19.1465 8.80506 19.4826 7.99781 20.0949 7.38583C20.715 6.77386 21.5226 6.46398 22.3408 6.46398C23.1563 6.46398 23.9821 6.77387 24.61 7.38583C25.8424 8.64359 25.8424 10.667 24.61 11.8987C23.9978 12.5107 23.1719 12.87 22.3329 12.8466C21.4835 12.8388 20.6915 12.5107 20.087 11.8909C19.4878 11.3024 19.1544 10.5108 19.1465 9.66183ZM10.5538 25.9141C10.5538 28.3749 8.53981 30.3749 6.07244 30.3749H2.60987C2.05752 30.3749 1.60939 29.927 1.60939 29.3749V25.9141C1.60939 23.448 3.61034 21.4403 6.07244 21.4403C8.53714 21.4403 10.5538 23.448 10.5538 25.9141Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1522_6974">
+                            <rect width="32" height="32" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <h3>Standard</h3>
+                      <!--<h2>  $2999<span> /Starting From &gt;&gt;</span></h2>-->
+                    </div>
+                  </div>
+                  <div class="pricing-list">
+                    <p>$1000 per month + $499 onetime payment for SEO Setup</p>
+                    <ul>
+                      <li><img src="assets/images/bullet.png" alt=""> 15 - 20 keywords optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Up to 10 pages targeting</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Focused on Ranking Regionally</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Competitive Analysis</li>
+                      <li><img src="assets/images/bullet.png" alt=""> 08 keywords ranking</li>
+                      <li><img src="assets/images/bullet.png" alt=""> 4 Guest Post Monthly</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Keyword Research (National and international)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Analytics Setup & Configuration</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly Strategy Discussion</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Title Tag & Meta Tag Creation</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Technical SEO - (Robots.txt, Sitemap, etc.)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Internal Link Building (Crosslinking)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Publish 06 on site blog per month</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Content Editing & Optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> On-Site Optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Offsite Link Building</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Lead Generation Focused</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly Custom Report</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly Personalized Review Call</li>
+                    </ul>
+
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <div class="custom-submit">
+                      <button type="submit " data-bs-toggle="modal" data-bs-target="#salesinquirymodelforinnerpages"
+                        class="custom-button">
+                        Get In Touch
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Premium Tab Pane -->
+              <div class="tab-pane fade h-100" id="premium" role="tabpanel">
+                <div class="pricing v2 m-0">
+                  <div class="price-heading-container">
+                    <div class="pricing-head d-flex align-items-center gap-2">
+                      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M15.1776 32L1 12.8299H8.35689L15.1776 32ZM22.7885 12.8299L16 31.9115L9.21553 12.8299H22.7885ZM12.4284 7.35211L8.45364 12.0249H1.2459L7.55469 7.35211H12.4284ZM22.4902 12.0249H9.51384L13.4845 7.35211H18.5155L22.4902 12.0249ZM30.7541 12.0249H23.5423L19.5716 7.35211H24.4453L30.7541 12.0249ZM31 12.8299L16.8224 32L23.6391 12.8299H31ZM24.1861 3.76802H26.7898V4.57298H24.1861V3.76802ZM28.2532 3.76802H30.8573V4.57298H28.2532V3.76802ZM27.1184 4.901H27.9246V7.50062H27.1184V4.901ZM27.1184 0.839574H27.9246V3.43919H27.1184V0.839574ZM17.4286 1.7371H19.1012V2.54207H17.4286V1.7371ZM20.0417 1.7371H21.7142V2.54207H20.0417V1.7371ZM19.1685 2.60888H19.9747V4.27917H19.1685V2.60888ZM19.1685 0H19.9747V1.66989H19.1685V0Z"
+                          fill="white" />
+                      </svg>
+                      <h3>Premium</h3>
+                    </div>
+                  </div>
+                  <div class="pricing-list">
+                    <p>$1500 per month + $499 onetime payment for SEO Setup</p>
+                    <ul>
+                      <li><img src="assets/images/bullet.png" alt=""> 20 - 25 keywords optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Up to 15 pages targeting</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Focused on Ranking Regionally</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Competitive Analysis</li>
+                      <li><img src="assets/images/bullet.png" alt=""> 10 keywords ranking</li>
+                      <li><img src="assets/images/bullet.png" alt=""> 8 Guest Post Monthly</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Keyword Research (National and international)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Analytics Setup & Configuration</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly Strategy Discussion</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Title Tag & Meta Tag Creation</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Technical SEO - (Robots.txt, Sitemap, etc.)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Internal Link Building (Crosslinking)</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Publish 07 on site blog per month</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Content Editing & Optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> On-Site Optimization</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Offsite Link Building</li>
+                      <li><img src="assets/images/bullet.png" alt=""> A/B testing</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Lead Generation Focused</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly Custom Report</li>
+                      <li><img src="assets/images/bullet.png" alt=""> Monthly Personalized Review Call</li>
+                    </ul>
+
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <div class="custom-submit">
+                      <button type="submit " data-bs-toggle="modal" data-bs-target="#salesinquirymodelforinnerpages"
+                        class="custom-button">
+                        Get In Touch
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sectionSpace2 working-sec scroller-section mb-5 section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="scroller-sticky">
+            <div class="section-heading-para">
+              <h2>Boost Your Business with Search Engine Optimization by Search Optimax</h2>
+              <p class="mb-0">At Search Optimax, we provide all-in-one SEO services that drive real growth for your
+                business. As a leading SEO agency, we help you improve your website's visibility, increase targeted
+                traffic, and boost conversions with effective search engine optimization strategies. Our approach is
+                designed to make SEO work for your business, no matter your industry. Here's how we make it happen:</p>
+            </div>
+            <ul class="scroller-list">
+              <li>
+                <a href="#web-firstScroller" class="active">
+                  <p><span>01</span> Understanding Your Business and SEO Strategy</p>
+                </a>
+              </li>
+              <li>
+                <a href="#web-secondScroller">
+                  <p><span>02</span> Website Audit: Finding SEO Gaps with Powerful Tools</p>
+                </a>
+              </li>
+              <li>
+                <a href="#web-thirdScroller">
+                  <p><span>03</span> Keyword Research: Targeting the Right Search Terms</p>
+                </a>
+              </li>
+              <li>
+                <a href="#web-fourthScroller">
+                  <p><span>04</span> Content Optimization: Creating Valuable, SEO-Friendly Content</p>
+                </a>
+              </li>
+              <li>
+                <a href="#web-fifthScroller">
+                  <p><span>05</span> On-Page SEO: Making Every Page Count</p>
+                </a>
+              </li>
+              <li>
+                <a href="#web-sixthScroller">
+                  <p><span>06</span> Technical SEO: Improving Website Performance</p>
+                </a>
+              </li>
+              <li>
+                <a href="#web-seventhScroller">
+                  <p><span>07</span> Off-Page SEO: Building Trust and Authority</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="scroller-item mb-4" id="web-firstScroller">
+            <img src="assets/images/seo/scroll-1.webp" alt="" width="100%" />
+            <h3>Understanding Your <span class="color-orange">Business</span> and <span class="color-orange">SEO
+                Strategy</span></h3>
+            <p>We begin by learning about your business and understanding your goals. This allows us to craft a custom
+              SEO strategy that's aligned with your unique needs. We don't believe in one-size-fits-all approaches;
+              instead, we provide a tailored SEO solution that helps you stand out in your industry.</p>
+            <ul>
+              <li>Personalized SEO plan based on your business goals and target audience.</li>
+              <li>Clear, measurable objectives to track your SEO progress.</li>
+              <li>Focused on driving long-term growth and increasing revenue.</li>
+            </ul>
+            <p>Whether you're looking to improve local rankings or grow nationally, we use the best practices to make
+              your site more visible and accessible to your customers.</p>
+          </div>
+          <div class="scroller-item mb-4" id="web-secondScroller">
+            <img src="assets/images/seo/scroll-2.webp" alt="" width="100%" />
+            <h3><span class="color-orange">Website Audit</span>: Finding SEO Gaps with <span
+                class="color-orange">Powerful Tools</span></h3>
+            <p>A full-stack SEO audit is one of the most important steps in our process. We use advanced SEO tools to
+              evaluate every aspect of your website—from its performance to content and technical setup. This helps us
+              uncover any gaps or issues that are holding back your rankings, such as broken links, slow loading times,
+              or content that's not optimized.</p>
+            <ul>
+              <li>Detailed analysis of site speed, user experience, and mobile-friendliness.</li>
+              <li>Identifying and fixing technical issues that can affect rankings.</li>
+              <li>Using SEO plugins to improve site performance.</li>
+            </ul>
+            <p>Our SEO audit gives us the insights we need to create a detailed plan for improving your site's overall
+              health and performance.</p>
+          </div>
+          <div class="scroller-item mb-4" id="web-thirdScroller">
+            <img src="assets/images/seo/scroll-3.webp" alt="" width="100%" />
+            <h3>Keyword Research: <span class="color-orange">Targeting</span> the Right Search Terms</h3>
+            <p>Effective keyword research is the foundation of any successful SEO strategy. We take a deep dive into
+              what your target audience is searching for, ensuring we focus on keywords that are relevant to your
+              business. By selecting the right keywords, we make sure your site attracts the right traffic that's likely
+              to convert into customers.</p>
+            <ul>
+              <li>In-depth research to identify both short-tail and long-tail keywords.</li>
+              <li>Balancing high-volume keywords with low-competition ones for better rankings.</li>
+              <li>Ongoing keyword optimization to keep up with industry trends.</li>
+            </ul>
+            <p>Our goal is to help your business rank for the right terms and appear when your customers are searching
+              for products or services like yours.</p>
+          </div>
+          <div class="scroller-item mb-4" id="web-fourthScroller">
+            <img src="assets/images/seo/scroll-4.webp" alt="" width="100%" />
+            <h3>Content Optimization: Creating Valuable, <span class="color-orange">SEO-Friendly</span> Content</h3>
+            <p>Optimizing your content isn't just about inserting keywords—it's about creating valuable content that
+              answers your audience's questions. We optimize existing pages and create new content that fits seamlessly
+              into your SEO strategy. Our team ensures that your content is both engaging and optimized for search
+              engine optimization.</p>
+            <ul>
+              <li>Crafting keyword-rich, user-friendly content that meets search intent.</li>
+              <li>Updating older pages to ensure relevancy and SEO performance.</li>
+              <li>Creating fresh, high-quality content that speaks to your audience's needs.</li>
+            </ul>
+            <p>By focusing on white hat SEO techniques, we ensure your content is not only SEO-friendly but also
+              genuinely useful to your customers.</p>
+          </div>
+          <div class="scroller-item mb-4" id="web-fifthScroller">
+            <img src="assets/images/seo/scroll-5.webp" alt="" width="100%" />
+            <h3><span class="color-orange">On-Page SEO</span>: Making Every Page Count</h3>
+            <p>On-page SEO ensures that each page on your site is fully optimized. From title tags to meta descriptions,
+              we make sure every detail is covered to improve rankings. We focus on optimizing elements like headers,
+              content structure, and images, ensuring search engines can easily crawl and understand your pages.</p>
+            <ul>
+              <li>Optimizing title tags, meta descriptions, and image alt texts.</li>
+              <li>Improving internal linking and content hierarchy for better user navigation.</li>
+              <li>Streamlining URLs and headings for improved SEO.</li>
+            </ul>
+            <p>These on-page optimizations ensure that your site's content is easy to find and understand by both search
+              engines and your audience.</p>
+          </div>
+          <div class="scroller-item mb-4" id="web-sixthScroller">
+            <img src="assets/images/seo/scroll-6.webp" alt="" width="100%" />
+            <h3>Technical SEO: Improving <span class="color-orange">Website</span> Performance</h3>
+            <p>Technical SEO is essential to ensure your site is running smoothly. We take care of technical issues that
+              may hinder search engines from crawling and indexing your pages. From improving site speed to making sure
+              your website is mobile-friendly, we make sure your site is optimized from the inside out.</p>
+            <ul>
+              <li>Improving site load times and mobile responsiveness.</li>
+              <li>Fixing crawl errors, broken links, and other issues.</li>
+              <li>Ensuring your website is accessible to search engines and users.</li>
+            </ul>
+            <p>By optimizing the technical aspects of your site, we ensure a seamless user experience and improved
+              search engine rankings.</p>
+          </div>
+          <div class="scroller-item mb-4" id="web-seventhScroller">
+            <img src="assets/images/seo/scroll-7.webp" alt="" width="100%" />
+            <h3>Off-Page SEO: Building <span class="color-orange">Trust</span> and Authority</h3>
+            <p>Off-page SEO is all about building your website's authority and credibility. We focus on earning
+              backlinks from reputable sources within your industry and promoting your content across relevant
+              platforms. The more trusted websites link to yours, the higher your site's authority, and the better your
+              chances of ranking higher in search results.</p>
+            <ul>
+              <li>Building high-quality backlinks from industry-related websites.</li>
+              <li>Engaging in influencer outreach and guest posting for brand exposure.</li>
+              <li>Leveraging social media to boost content visibility and engagement.</li>
+            </ul>
+            <p>Our off-page strategies help build a strong online presence and establish your business as a trusted
+              authority in your industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SEO Services -->
+
+  <section class="Call-to-action pad-tb-50">
+    <div class="container v2">
+      <div class="cta-detail">
+        <div class="row">
+          <div class="col-lg-3 hide-mobile hide-ipad">
+            <div class="cta-image"><img src="assets/images/circle-link.png" alt=""></div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cta-head">
+              <h3>Get Your Business Up by 10X</h3>
+              <p>Contact us now to start the conversation.</p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="cta-para v2">
+              <h4 class="d-none d-md-block">Get Free Quotation </h4>
+              <div class="contact-form v6">
+                <form id="newsletter_form" method="post">
+                  <div class="form-field v6">
+                    <div class="input-field v6">
+                      <i class="fa-solid fa-envelope"></i>
+                      <input class="ctaInput" type="text" placeholder="Enter Your Email Address" name="email"
+                        data-error="email field is required" required>
+                      <div class="custom-submit" style="white-space: nowrap;">
+                        <button type="submit" class="custom-button">
+                          Contact Us
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </button>
+                      </div>
+                    </div>
+                </form>
+
+              </div>
+              <p>Fill out the form we will get back to you.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------- Technology Section ------------------------->
+  <section class="slideshow mb-5">
+    <div class="container-fluid">
+      <div class="paddingTopZeroMobile swiper mySwiper left-to-right right">
+        <div class="swiper-wrapper slide-track">
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-1.png" height="100" width="250" alt="" />
+              <p>SemRush</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-2.png" height="100" width="250" alt="" />
+              <p>Google Analytics</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-3.png" height="100" width="250" alt="" />
+              <p>Aherf</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-4.png" height="100" width="250" alt="" />
+              <p>Search Console</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-5.png" height="100" width="250" alt="" />
+              <p>RankMath</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-6.png" height="100" width="250" alt="" />
+              <p>SEO Yoast</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-7.png" height="100" width="250" alt="" />
+              <p>SpyFu</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-8.png" height="100" width="250" alt="" />
+              <p>Google Trends</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-6.png" height="100" width="250" alt="" />
+              <p>Uber Suggest</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-7.png" height="100" width="250" alt="" />
+              <p>Google My Business</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-9.png" height="100" width="250" alt="" />
+              <p>KW Finder</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-0.png" height="100" width="250" alt="" />
+              <p>Allinone SEO</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img src="assets/images/show-11.png" height="100" width="250" alt="" />
+              <p>Keyword Planner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- process -->
+  <!-- TABS PRESENTATION -->
+
+  <section class="section-space mt3OnMobile howItWorkSection"
+    style="background: linear-gradient(180deg, rgba(0, 181, 156, 0.15) 0%, rgba(156, 255, 172, 0.15) 100%); padding-top: 7rem; margin-bottom: 5rem;">
+    <div class="container">
+      <div class="row rowGap6">
+        <div class="col-lg-5 col-sm-12">
+          <div class="section-heading-para">
+            <h2 class="text-black">How We DO Your SEO Project Management</h2>
+            <p>At Search Optimax, we handle your SEO project with clear steps. We begin by understanding your goals,
+              then create a tailored strategy. Our team ensures every task is on track, from content optimization to
+              technical SEO. We keep you updated and focused on results, ensuring success every step.
+            </p>
+
+            <button class="button button--rayen" data-text="Contact Us"><span>Contact Us</span></button>
+          </div>
+          <img src="../assets/images/seo/seolayer.webp" alt="" width="100%">
+
+        </div>
+
+        <div class="col-lg-7 col-sm-12">
+          <div class="row rowGap5">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+              <div class="how-it-work-div-seo text-start">
+                <div class="icon-wrapper">
+                  <img src="assets/images/local-seo/meeting-with-client.webp" alt="" width="100%" />
+                </div>
+                <div class="how-it-work-seo-content">
+                  <h3>Advice and Planning</h3>
+                  <p>The first stage of our strategy is to determine your goals. Whether you're looking for
+                    international SEO agency help or SEO consulting services,
+                    our skilled consultants can help you develop a plan that works for you. In order to make the most of
+                    your industry's potential, we research the competition and
+                    determine the optimal strategy.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-6">
+              <div class="how-it-work-div-seo text-start">
+                <div class="icon-wrapper">
+                  <img src="assets/images/local-seo/building-a-plan.webp" alt="" width="100%" />
+                </div>
+                <div class="how-it-work-seo-content">
+                  <h3>Optimization</h3>
+                  <p>Your site's structure, content, and performance may all be enhanced with our on page SEO services.
+                    In order to boost your website's exposure, we
+                    improve it using the newest search engine optimization services. Our utmost focus is on optimizing
+                    content, researching keywords, and improving metadata.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-6">
+              <div class="how-it-work-div-seo text-start">
+                <div class="icon-wrapper">
+                  <img src="assets/images/local-seo/implementation.webp" alt="" width="70%" />
+                </div>
+                <div class="how-it-work-seo-content">
+                  <h3>Oversight</h3>
+                  <p>Our group starts putting plans into action as soon as they are finalized. We make necessary
+                    adjustments based on continual monitoring of performance. Consistent progress is guaranteed by our
+                    website SEO services, which monitor data. Your website will be able to adapt to changing search
+                    engine trends with the help of our affordable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-6">
+              <div class="how-it-work-div-seo text-start">
+                <div class="icon-wrapper">
+                  <img src="assets/images/local-seo/supervision-and-assistance.webp" alt="" width="100%" />
+                </div>
+                <div class="how-it-work-seo-content">
+                  <h3>Disclosure and Modifications</h3>
+                  <p>To demonstrate the efficacy of our professional SEO services, we provide clear and consistent
+                    reports. Whether you’re a little company or a large corporation, we can optimize your SEO services
+                    to increase your return on investment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
+  <!-- TABS PRESENTATION // -->
+  <!--  process-->
+
+  <!----------------------- Why Choose Section ------------------------->
+  <section class="section-space pt-0">
+    <div class="container">
+      <div class="row g-3 g-sm-0">
+        <div class="col-lg-6 col-sm-12 my-auto">
+          <div class="section-heading-para">
+            <h5>Why Choose Us</h5>
+            <h2>Your Trusted Partner for Professional SEO Services</h2>
+            <p>When it comes to growing their digital presence, companies in the USA trust our affordable SEO services
+              because of our established track record of increasing online
+              exposure.</p>
+            <p>We tailor our professional SEO services to match the demands of your company since we know that no two
+              businesses are alike. In order to provide outstanding outcomes, our team of specialists integrates
+              cutting-edge industrial methods with their extensive experience in the field. We take care of your SEO
+              strategy from top to bottom as an SEO outsourcing firm, allowing you to concentrate on operating your
+              business. We provide all-encompassing solutions that lead to success, including on page SEO services and
+              overall website SEO. With our user-friendly, data-driven SEO services, you may access them online with
+              ease.</p>
+            <p>We provide SEO consulting services for both small and large businesses, with a focus on delivering
+              quantifiable results, and we are dedicated to your success as an
+              organization. If you want your business to succeed in today's cutthroat digital market, choose us as your
+              reliable SEO firm in the USA.</p>
+            <a href="#" class="button button--rayen" data-text="Read More"><span>Read More</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="contact-form v2">
+            <form action="" method="post" id="innerpagebannerform2">
+              <input type="hidden" name="page_url" id="page_url_inner2" value="">
+              <div class="form-field-v2">
+                <div class="form-head">
+                  <h3 style="color:#fff">Contact Us</h3>
+                  <p style="color:#fff">Just fill in the details and our digital professional will contact you shortly.
+                    Get, Set & Grow!</p>
+                </div>
+                <div class="row name-email-row">
+                  <div class="col-md-6 input-field v2">
+                    <input type="text" placeholder="Enter Your Name" name="name" required>
+                  </div>
+                  <div class="col-md-6 input-field v2">
+                    <input type="email" placeholder="Enter Your Email" name="email" required>
+                  </div>
+                </div>
+                <div class="input-field v2">
+                  <select name="package" required placeholder>
+                    <option value="" disabled selected>Select Any Package</option>
+                    <option value="basic">Basic</option>
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                  </select>
+                </div>
+                <div class="input-field v2">
+                  <input type="url" placeholder="Enter Your Business Website" name="website">
+                </div>
+                <div class="input-field v2">
+                  <textarea placeholder="Message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="submit-btn v3">
+                  <button type="submit" class="sub-btn gradient w-100 mt-2">Submit
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </div>
+              <div class="alert alert-success" role="alert">Your form has been submitted!!!</div>
+              <div class="alert alert-danger" role="alert">Error submitting form.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------- Industries Section ------------------------->
+  <section class="section-space industry-sec mb-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-lg-12 col-sm-12 text-center">
+          <div class="section-heading-para">
+            <h2>Industries We Serve</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <div class="swiper mySwiper industries-slide">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Real Estate</h3>
+                  <img src="assets/images/seo-new/2.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">E-commerce</h3>
+                  <img src="assets/images/seo-new/3.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Education</h3>
+                  <img src="assets/images/seo-new/4.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Legal</h3>
+                  <img src="assets/images/seo-new/5.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Hospitality</h3>
+                  <img src="assets/images/seo-new/1.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Real Estate</h3>
+                  <img src="assets/images/seo-new/2.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">E-commerce</h3>
+                  <img src="assets/images/seo-new/3.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Education</h3>
+                  <img src="assets/images/seo-new/4.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Legal</h3>
+                  <img src="assets/images/seo-new/5.png" alt="" width="100%">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="how-it-work-div text-center" style="background-color: #fff">
+                  <h3 class="text-dark">Hospitality</h3>
+                  <img src="assets/images/seo-new/1.png" alt="" width="100%">
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------- FAQs Section ------------------------->
+
+  <section>
+    <div class="container">
+      <div class="faq-head text-center mb-4">
+        <!-- <h5>FAQs</h5> -->
+        <h2>FAQs</h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 ">
+          <div class="accordion-container">
+            <div class="accordion">
+              <h3>What is SEO?</h3>
+              <div class="accordion-content">
+                <p>SEO, or search engine optimization, is a set of techniques that help websites rank well on search
+                  engine results pages for relevant search terms. With a smart SEO strategy, you can improve the
+                  quantity
+                  and quality of traffic to your website through organic search results.</p>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <h3>What are SEO services?</h3>
+              <div class="accordion-content">
+                <p>SEO services include keyword research, on-page optimization, technical SEO audits, content creation,
+                  link building, and performance tracking. These services help improve your website's visibility in
+                  search
+                  engine results.</p>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <h3>How much do SEO services cost?</h3>
+              <div class="accordion-content">
+                <p>SEO service costs vary based on your business needs, competition level, and scope of work. Our
+                  packages
+                  start at $800 per month plus a one-time setup fee. We offer flexible pricing to fit different budgets
+                  and business requirements.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 mb-4">
+          <div class="accordion-container">
+            <div class="accordion">
+              <h3>How quickly can I see SEO results?</h3>
+              <div class="accordion-content">
+                <p>SEO is a long-term strategy, and results typically start appearing within 3-6 months. However, some
+                  improvements like technical fixes and on-page optimizations can show results sooner. Consistent effort
+                  and patience are key to achieving sustainable SEO success.</p>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <h3>What does your SEO company do?</h3>
+              <div class="accordion-content">
+                <p>Our SEO company provides comprehensive search engine optimization services including technical
+                  audits,
+                  keyword research, on-page and off-page optimization, content marketing, link building, and monthly
+                  performance reporting to help your business rank higher in search results.</p>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <h3>Is your SEO company USA-based?</h3>
+              <div class="accordion-content">
+                <p>Yes, Search Optimax is a USA-based SEO company offering services to clients nationwide. We understand
+                  local and national market dynamics to create effective SEO strategies for businesses across the United
+                  States.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+  <footer class="new_footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-12">
+          <a href="">
+            <img class="footerLogo" src="assets/images/logo-white.png" alt="Search Optimax - Logo" width="100%">
+          </a>
+          <ul class="external-links-ul">
+            <li><a href="https://www.crunchbase.com/organization/search-optimax" target="_blank"><img
+                  src="assets/images/footer-crunch.png" alt=""></a></li>
+            <li><a
+                href="https://www.google.com/search?sca_esv=cb75dbb3c59e956c&rlz=1C1GCEU_enPK970PK970&q=Search+Optimax&si=ACC90nxUaQlEYyPWPer1nJgAB5evn4qtFnMAX98mvHiUas5jYX8gz8A7Byi2dB2feVaacnMLo5KdoR5MZzzk3w8dDefzDSMx7dLAxyyruEyLXhhthWGOthpIUGl565lHxovzY6fb675Qb-ZgHrNG8NrXJGQuunOLW2G8TGiQDnyrLAxHfPDpq5M0Fi4CLUhZ4rVAsSR6nAtAofX8q2w-cKx5yxi6kK9sfMb4GZpJMZAPZAj3OSta4wMy3bwmfAlpFFFXqBY9Uob-QZanmKu2qCQDPhItgV2LoMHlH3fnJRllEoJeiVsMNq0%3D&sa=X&ved=2ahUKEwiPoMmEtYmLAxVAgf0HHaRsF2QQ6RN6BAgOEAE&biw=1600&bih=739&dpr=1"
+                target="_blank">
+                <img src="assets/images/gmb.png" alt=""></a></li>
+            <li><a href="https://www.trustpilot.com/review/searchoptimax.com" target="_blank"><img
+                  src="assets/images/footer-trust.png" alt=""></a></li>
+          </ul>
+          <div class="footer_content">
+            <p>Unlock growth with innovative digital marketing solutions. Search Optimax is powered by possibility
+              pursuers to help you achieve the success you want.</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 footerdiv">
+          <div class="footer_content">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="">Home</a></li>
+              <!--<li><a href="/about">About</a></li>-->
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="pricing.html">Packages</a></li>
+              <li><a href="tool.html">Tools</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="write-for-us.html">Write For Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 footerdiv">
+          <div class="footer_content">
+            <h3>Design</h3>
+            <ul>
+              <li><a href="design/web-design.html">Web Design</a></li>
+              <li><a href="design/app-design.html">App Design</a></li>
+              <li><a href="design/landing-page-design.html">Landing Page Design</a></li>
+              <li><a href="design/shopify-design.html">Shopify Design</a></li>
+              <li><a href="design/amazon-store-setup.html">Amazon Store Setup</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-12 footer_content-mobile-none">
+          <div class="footer_content ">
+            <h3>Development</h3>
+            <ul>
+              <li><a href="development/custom-web-development-services.html">Web Development</a></li>
+              <li><a href="development/shopify-development.html">Shopify Development</a></li>
+              <li><a href="development/square-space.html">Square Space</a></li>
+              <li><a href="development/native-development.html">Native Development</a></li>
+              <li><a href="development/wix.html">Wix</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 footerdiv">
+          <div class="footer_content">
+            <h3>Contact Info.</h3>
+            <ul>
+              <li><a style="color: #9FAFA8;cursor: pointer;"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;3 E
+                  Evergreen Road # 1009, New City, NY 10956</a></li>
+              <li><a href="mailto:marketing@searchoptimax.com" class="custom_envelope"><i
+                    class="fa-solid fa-envelope"></i>&nbsp;&nbsp;marketing@searchoptimax.com</a></li>
+              <li><a href="tel:(646) 825-2046"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;(646) 825-2046</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row footer_social_div">
+        <div class="col-lg-6 col-sm-12">
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-and-condition.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-sm-12"> 
+          <p>© Copyright 2026 All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/intlTelInput.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/allpage.js"></script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      var header = jQuery('.header');
+      var lastScrollTop = 0; // Store the last scroll position
+
+      jQuery(window).scroll(function () {
+        var currentScroll = jQuery(this).scrollTop(); // Get current scroll position
+
+        if (currentScroll > 100) {
+          // Add class when scroll position is greater than 100px
+          header.addClass("shrink-nav");
+        } else {
+          // Remove class when scroll position is less than or equal to 100px
+          header.removeClass("shrink-nav");
+        }
+
+        // Update last scroll position for the next scroll event
+        lastScrollTop = currentScroll;
+      });
+    });
+  </script>
+
+  <script>
+    var swiper = new Swiper('.mySwiper.industries-slide', {
+      loop: true,  // Enable loop for continuous slider
+      spaceBetween: 30,
+      autoplay: {
+        delay: 3000, // 3 seconds for autoplay
+        disableOnInteraction: false, // Keeps autoplay running after user interactions
+      },
+      speed: 2000, // Slide movement speed in milliseconds
+
+      // Enable Pagination
+      pagination: {
+        el: '.swiper-pagination',  // Set the pagination container
+        clickable: true,  // Allows users to click on the pagination bullets to navigate
+      },
+
+      // Disable Navigation arrows by removing the navigation property or setting it to false
+      navigation: false,  // Disable navigation arrows
+
+      // Scrollbar (not required, so set to false)
+      scrollbar: {
+        el: '.swiper-scrollbar',  // Make sure the scrollbar is correctly set
+        draggable: true,  // Makes the scrollbar draggable (optional)
+      },
+
+      // Breakpoints for different screen sizes
+      breakpoints: {
+        // Desktop view (1024px and above)
+        1024: {
+          slidesPerView: 5,  // Show 5 slides
+        },
+        // iPad Pro (portrait)
+        768: {
+          slidesPerView: 3,  // Show 3 slides
+        },
+        // iPad (portrait)
+        480: {
+          slidesPerView: 2,  // Show 2 slides
+        },
+        // Mobile view (320px and below)
+        320: {
+          slidesPerView: 2,  // Show 2 slides
+        },
+      },
+    });
+  </script>
+
+  <script>
+    // Wait for everything to load, then initialize accordion
+    window.addEventListener('load', function () {
+      // Small delay to ensure all scripts are processed
+      setTimeout(function () {
+        var accordionHeaders = document.querySelectorAll('.accordion h3');
+
+        accordionHeaders.forEach(function (header) {
+          // Remove any existing event listeners
+          var newHeader = header.cloneNode(true);
+          header.parentNode.replaceChild(newHeader, header);
+
+          // Add click event
+          newHeader.addEventListener('click', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            var content = this.nextElementSibling;
+            if (!content || !content.classList.contains('accordion-content')) {
+              return;
+            }
+
+            var isActive = this.classList.contains('active');
+            var container = this.closest('.accordion-container');
+
+            // Close all other accordions in the same container
+            if (container) {
+              container.querySelectorAll('.accordion h3').forEach(function (otherHeader) {
+                if (otherHeader !== newHeader) {
+                  otherHeader.classList.remove('active');
+                  var otherContent = otherHeader.nextElementSibling;
+                  if (otherContent && otherContent.classList.contains('accordion-content')) {
+                    otherContent.style.display = 'none';
+                  }
+                }
+              });
+            }
+
+            // Toggle current accordion
+            if (isActive) {
+              this.classList.remove('active');
+              content.style.display = 'none';
+            } else {
+              this.classList.add('active');
+              content.style.display = 'block';
+            }
+          });
+
+          // Make sure it's clickable
+          newHeader.style.cursor = 'pointer';
+          newHeader.style.userSelect = 'none';
+        });
+      }, 200);
+    });
+  </script>
+
+  <script>
+    // Scroller Script
+    jQuery(document).ready(function () {
+      if (document.querySelectorAll(".scroller-section")) {
+        function updateActiveSection() {
+          const sections = document.querySelectorAll(".scroller-item");
+          let currentSection = "";
+          const buffer = window.innerHeight / 2;
+          if (sections) {
+            sections.forEach((section) => {
+              const sectionTop = section.getBoundingClientRect().top;
+              const sectionBottom = section.getBoundingClientRect().bottom;
+              if (
+                sectionTop < window.innerHeight - buffer &&
+                sectionBottom > buffer
+              ) {
+                currentSection = section.getAttribute("id");
+              }
+            });
+            if (currentSection) {
+              document
+                .querySelectorAll(".scroller-sticky .scroller-list a")
+                .forEach((link) => {
+                  link.classList.remove("active");
+                  if (link.getAttribute("href").endsWith(currentSection)) {
+                    link.classList.add("active");
+                  }
+                });
+            }
+          }
+        }
+
+        // Run on scroll
+        document.addEventListener("scroll", updateActiveSection);
+
+        // Run on initial load
+        updateActiveSection();
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,421 @@
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    .Call-to-action .form-field .input-field{
+        max-width: 28rem;
+        margin: 0 auto;
+        margin-top: 0.44rem;
+    }
+    ul.nav.nav-tabs.pricing-nav_tabs{ 
+        padding: unset !important;
+        margin-bottom: 1rem;
+    }
+    .hideOnIpad{
+        display: none !important;
+    }
+    .showOnIpad{
+        display: block !important;
+        width: fit-content;
+    }
+    .container-fluid.v2.color-bg {
+        padding: 400px 0px 31px 40px !important;
+    }
+    .report-detail {
+    padding: 15px 30px !important;
+    }
+    .tab-content.v3{
+        padding: 55px 50px 0px 50px;
+    }
+    .visitors{
+        border-right: none;
+        padding: 0rem 1rem;
+    }
+    .pricing-list > ul {
+        max-height: unset!important;
+    }
+    .counter-sec {
+        padding: 24px 11px 36px !important;
+    }
+    .casestudyBgContainer{
+        width: 100% !important;
+    }
+    .strategy-tabs .tab-image{
+         margin-bottom: 45px !important;
+    }
+    .acquisition{
+        margin-top: 1rem;
+    }
+    .swiper.mySwiper.review.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden {
+  padding: 0px 40px 35px 16px;
+}
+    .swiper.review{
+      overflow: visible;
+  }
+    .verticle-bar{
+        justify-content: space-between;
+    }
+    .strategy-tabs > ul > li{
+        width: unset !important;
+    }
+    .home-service-tab > li > a{
+        min-width: 16rem;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    .home2_workflow_sec #workflow-5 img {
+        left: 54% !important;
+    }
+    /*.home-service-tab{*/
+    /*    display: block !important;*/
+    /*    margin-left: auto;*/
+    /*    margin-right: auto;*/
+    /*    width: fit-content;*/
+    /*}*/
+        .single-workflow.new {
+        width: 80% !important;
+        padding: 0 15px !important;
+        margin: 0 auto !important;
+    }
+    .home-service-tab li{
+        margin-top: 0.77rem;
+    }
+    .horizontal-accordion .card-header.active h3 > i {
+        transform: rotate(0deg) !important;
+    }
+    .Call-to-action .input-field.v6{
+        padding-bottom: 10px !important;
+    }
+    .cta-para h4{
+        margin-bottom: 0.77rem;
+    }
+    .Call-to-action .custom-submit button{
+        margin-top: 0.55rem !important;
+    }
+    .Call-to-action{
+        text-align: center;
+    }
+    .howItWorkSection .col-lg-5 img{
+        display: none !important;
+    }
+    /*.whychooseus-details h2{*/
+    /*    max-width: 30rem;*/
+    /*}*/
+    .whychooseus-details{
+        padding: 0rem;
+    }
+    .scroller-section .scroller-list{
+        display: none !important;
+    }
+    .pricingNew {
+        max-width: 34rem;
+        gap: 2rem;
+    }
+    section.new_bg_image {
+        background: url(https://searchoptimax.com/wp-content/themes/searchoptimax/assets/images/banner-img3.webp) no-repeat center center !important;
+    }
+    .about-details{
+        padding: 0rem !important;
+    }
+    .border-wrapper{
+        background: none !important;
+    }
+    .banner-details.services {
+        margin-bottom: 60px !important;
+    }
+    .new_bg_image .col-lg-6:last-child {
+        display: none!important;
+    }
+    .mySwiper.hero {
+        width: 80% !important;
+    }
+    .wholecard-wrapper{
+        border-radius: 22px !important;
+    }
+    .pricing.v2 {
+        border-radius: 22px !important;
+    }
+    html, body{
+        overflow-x: hidden;
+    }
+    .hide-ipad, .header{
+        display: none;
+    }
+    .mobile-menu{
+        display: block !important;
+    }
+    .container-fluid.v2{
+        width: 100%;
+    }
+    .tab-btnss {
+        display: grid;
+        gap: 30px 0;
+    }
+    .counter.v1 {
+        font-size: 36px;
+    }
+    .counter-container.v1 span {
+        font-size: 15px;
+    }
+    .service-head > h2, .about-details > h2, .strategy-head > h2, .whychooseus-details > h2, .blog-details h2, .test-heading h2, .news-detail h2, .price-head h2, .faq-head h2,
+    .contact-info h3, .about-us-head h2, .pakages-header h2, .seo-ser-head h2, .case-details h2, .case-header h2{
+        font-size: 40px !important;
+        line-height: 1.2;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: -5px;
+    }
+    .inner-page-banner::before {
+   
+    background: none!important;
+   
+}
+    .cta-detail {
+        padding: 30px 30px 40px;
+    }
+    .cta-head.v2{
+        border-right: 0;
+    }
+    .swiper-wrapper .case {
+        padding: 100px 0px 20px;
+    }
+    .strategy-tabs .nav{
+        flex-wrap: nowrap;
+    }
+    .tab-content-detail {
+        display: grid;
+        gap: 35px 0;
+    }
+    .price-box.v2{
+        margin: 0;
+    }
+    .price-box {
+        margin: 0;
+    }
+    .seo-serv .row{
+        gap: 30px 0;
+    }
+    .banner-details.services h1{
+        line-height: 1.2;
+    }
+    .pakages-header h2, .seo-ser-head h2{
+        padding: 0;
+    }
+    .cta-head, .cta-para.v2{
+        padding: 0;
+    }
+    .banner-details.services{
+        padding: 0;
+        margin-bottom: 100px;
+    }
+    .news-form {
+        justify-content: left;
+    }
+    .footer-details{
+        flex-wrap: wrap;
+    }
+    .footer-details .footer-col1, .footer-details .footer-col2, .footer-details .footer-col3, .footer-details .footer-col4, .footer-details .footer-col5{
+        width: 50%;
+    }
+    .footer-col1 p {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .footer-details div h4 {
+        font-size: 24px;
+    }
+    .footer-details ul{
+        margin-top: 5px;
+    }
+    .footer-details ul li a {
+        font-size: 20px;
+    }
+    .footer-bottom{
+        display: grid;
+        gap: 15px 0;
+    }
+    .footer-bottom div{
+        text-align: center;
+        width: 100%;
+    }
+    .footer-bottom .terms ul{
+        justify-content: center;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    .tab-heading-info{
+        width: 100%;
+    }
+    .banner-details.services.v2{
+        padding-right: 0;
+    }
+    .tab-image{
+        width: 100%;
+    }
+    
+    
+    
+    
+    /* Custom CSS for sliding menu */
+            .menu {
+              position: fixed;
+              top: 0;
+              left: -510px; /* Initially off-screen */
+              height: 100%;
+              width: 500px;
+              background-color: #fff;
+              z-index: 1050; /* Make sure the menu is above the content */
+              transition: left 0.3s ease-in-out; /* Slide effect */
+              box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+            }
+            
+            .menu.show {
+              left: 0; /* Slide in when active */
+            }
+            
+            .menu ul {
+              list-style-type: none;
+              padding: 0;
+              margin-top: 50px; /* Space for the logo */
+            }
+            
+            .menu ul li {
+              padding: 8px 20px;
+            }
+            
+            .menu ul li a {
+              color: #000;
+              text-decoration: none;
+              display: block;
+              font-size: 20px !important;
+              font-weight: 400;
+            }
+            
+            .dropdown-menu a.dropdown-item{
+                padding: 0;
+                font-size: 20px !important;
+            }
+            .dropdown-menu a.dropdown-item > i{
+                color: #FF6348;
+            }
+            
+            /* Hamburger icon */
+            .hamburger {
+              font-size: 30px;
+              color: #000;
+              cursor: pointer;
+              z-index: 9; /* Make sure the hamburger is above the content */
+              text-align: center;
+            }
+            
+            /* Logo styles */
+            .logo {
+              width: 70%;
+            }
+            
+            .logo > img {
+              max-width: 150px;
+              height: auto;
+            }
+            
+            /* Styling for the top navbar */
+            .mobile-navbar {
+              padding: 15px;
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              z-index: 999;
+              background-color: transparent;
+              transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            }
+            
+            /* Navbar background-color when scrolled */
+            .mobile-navbar.scrolled {
+              background-color: white !important;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow when scrolled */
+            }
+            .menu ul{
+                margin-top: 5px;
+                box-shadow: none;
+            }
+            .menu ul li a{
+                border: 0;
+            }
+            
+            .category-blog-row > .col-lg-4{
+                width: 50%;
+            }
+            
+            
+            
+        /*---------------------------- Audit Page Ipad CSS --------------------------*/    
+        .audit-banner-sec {
+            height: 52rem !important;
+            padding-top: 150px;
+        }
+        .circle-row .col{
+            width: 100% !important;
+        }
+        .meta-div {
+            padding: 30px 20px !important;
+        }
+        .progress-container{
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        .metricsrow > div{
+            margin-bottom: 30px !important;
+        }
+        
+        
+        /*------------------------------- Case Study Page CSS --------------------------------*/
+            .case-img > img, .case-details > img{
+                width: 100%;
+            }
+            .count h1 {
+                font-size: 25px;
+            }
+            .container-fluid.v2.bg {
+                padding: 45px 20px;
+            }
+            .count p {
+                font-size: 16px;
+            }
+            .case-details {
+                padding-left: 0;
+            }
+            .case-study-btn a {
+                font-size: 16px;
+                padding: 15px 20px;
+            }
+            .case-study-single{
+                padding-top: 0px;
+            }
+            .case-study-single h1{
+                font-size: 50px;
+            }
+            .about-project p{
+                padding: 0;
+            }
+            .case-counter{
+                margin: 0 15px;
+            }
+            ul.navbar-nav .nav-item a{
+        font-size: 22px;
+    }
+    }
+    
+    
+    @media (max-width:768px){
+        
+    section.header{
+        display: none;
+    }    
+    .mobile-menu{
+        
+        display: block !important;
+    }
+        
+    }
+    

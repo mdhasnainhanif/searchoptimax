@@ -1,0 +1,984 @@
+
+        
+        @media (max-width: 700px) { 
+            html, body{
+                overflow-x: hidden;
+            }
+            .hide-mobile, .header, .hiw-info .hiw-img, .dollar-image{
+                display: none;
+            }
+            .button{
+                padding: .7rem 2rem !important;
+            }
+            /*.banner-details .swiper-slide.hero img{*/
+            /*    width: 30% !important;*/
+            /*}*/
+            .navbar-brand{
+                width: auto !important;
+            }
+            .navbar-brand > img{
+                width: 100%;
+                max-width: 140px;
+            }
+            .navbar-toggler{
+                border: 0;
+                font-size: 26px;
+                color: #000;
+            }
+            .main-banner{
+                padding: 230px 0 60px !important;
+            }
+            .form-field{
+                display: grid;
+                width: 100%;
+                justify-content: normal;
+            }
+            .form-field input{
+                width: 100%;
+                
+            }
+            .form-field .submit-btn{
+                text-align: center;
+                margin-top: 12px;
+            }
+            .form-field .submit-btn input{
+                margin-left: 0 !important;
+            }
+            .banner-details h1, .case-study-single h1{
+                font-size: 32px !important;
+                line-height: 1.3 !important;
+            }
+            div.section-heading-para > h3{
+                font-size: 18px;
+            }
+            div.section-heading-para > h5{
+                font-size: 14px;
+            }
+            div.section-heading-para > p{
+                font-size: 18px;
+            }
+            .service-tabs ul{
+                display: grid !important;
+                gap: 15px 0;
+            }
+            .service-tabs ul li{
+                width: 100% !important;
+            }
+            .service-head > h2, .about-details > h2, .strategy-head > h2, .whychooseus-details > h2, .blog-details h2, .test-heading h2, .news-detail h2, .price-head h2, .faq-head h2,
+            .contact-info h3, .about-us-head h2, .case-details h2, .case-header h2, .section-heading-para > h2{
+                font-size: 26px !important;
+                line-height: 1.4 !important;
+            }
+            .banner-details p{
+                font-size: 16px;
+            }
+            .col-md-12.tab-p{
+                display: grid;
+            }
+            .hiw-info{
+                display: grid;
+                gap: 35px 0;
+                margin-bottom: 30px;
+            }
+            .tab-p .tab-in-box, .tab-p .tab-img, .hiw-info .hiw-details{
+                width: 100%;
+            }
+            .tab-in-box{
+                padding: 0;
+            }
+            .hiw-btn a{
+                padding: 15px 20px;
+            }
+            ul#pills-tab{
+                display: grid;
+                gap: 15px 0;
+            }
+            .tab-content.v3{
+                padding: 15px 15px 65px;
+            }
+            .tab-content-detail{
+                display: grid;
+            }
+            .tab-heading-info{
+                width: 100%;
+            }
+            .tab-heading-info h2{
+                font-size: 22px;
+                line-height: 1.4;
+                width: auto;
+            }
+            .tab-heading-info p{
+                width: auto;
+                margin: 0 0 30px;
+            }
+            .tab-image{
+                width: 100%;
+                margin-top: 32px;
+            }
+            .report-detail{
+                display: grid;
+                padding: 15px 10px 10px 15px !important;
+            }
+            .counter.v1{
+                font-size: 35px;
+            }
+            .counter-head h3{
+                font-size: 24px;
+            }
+            .counter-head h4{
+                font-size: 28px;
+            }
+            .whyus-info{
+                margin-right: 0 !important;
+            }
+            .news-form{
+                justify-content: normal;
+                display: grid;
+                width: 100%;
+            }
+            .footer-details{
+                display: grid;
+                margin-top: 30px;
+            }
+            .footer-details > div{
+                width: 100%;
+            }
+            .footer-details > div ul > li{
+                padding: 3px 0px;
+            }
+            .input-field.v7 input{
+                width: 100% !important;
+            }
+            .form-field.v7 .submit-btn.v7 input{
+                width: 100%;
+                margin: 0;
+            }
+            .footer-bottom{
+                display: grid;
+                gap: 15px 0;
+            }
+            .footer-bottom .social-icons{
+                width: 100%;
+                text-align: center;
+            }
+            .footer-bottom .terms{
+                width: 100%;
+            }
+            .footer-bottom .terms > ul{
+                gap: 0 10px;
+                padding: 0;
+                margin: 0;
+                justify-content: center;
+            }
+            .footer-bottom .copyright{
+                width: 100%;
+            }
+            .footer-bottom .copyright > p{
+                text-align: center;
+            }
+            .cta-detail {
+                padding: 20px 15px 35px;
+            }
+            .cta-head{
+                padding-right: 0px;
+                padding-left: 0px;
+            }
+            .cta-para.v2{
+                padding: 0;
+            }
+            .nav-pills li > button{
+                font-size: 16px;
+            }
+            .tab-content.new {
+                padding: 29px 0px;
+            }
+            .price-box {
+                padding: 20px 20px;
+                border: 1px solid #EDEDED;
+                border-radius: 12px;
+                margin: 0px 0px 20px;
+            }
+            .price-btn a, .pric-btn a{
+                padding: 15px 25px;
+            }
+            .container-fluid.v2.color-bg.v4 {
+                padding: 0 15px;
+            }
+            .price-box.v2{
+                margin-top: 0px;
+            }
+            .writefor h3{
+                font-size: 22px;
+            }
+            .banner-details.services{
+                padding-right: 0 !important;
+                padding-top: 10px !important;
+            }
+            .pad-tb-100 {
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+            .tool-info {
+                padding: 45px 30px 48px 30px;
+                margin-bottom: 20px;
+            }
+            .row.v4 {
+                margin-bottom: 0;
+            }
+            .tool-info > img{
+                width: 100%;
+            }
+            .tool-name h5 {
+                font-size: 22px;
+            }
+            .contact-form.v2 {
+                padding: 20px;
+            }
+            .form-field-v2 .form-head h3 {
+                font-size: 26px;
+            }
+            .services-banner {
+                padding: 200px 0px 50px 0px;
+            }
+            .about-details {
+                padding-right: 0;
+                padding-left: 0;
+            }
+            .seo-ser-head h2, .pakages-header h2{
+                       line-height: 1.5 !important;
+                font-size: 30px !important;
+                padding: 0;
+            }
+            .seo-serv {
+                padding: 20px 0px;
+            }
+            .seo-info {
+                padding: 30px 20px 40px 20px;
+                margin-bottom: 20px;
+            }
+            .twothirds.vertical-tabs.\.blok-body {
+                margin-top: 0px;
+            }
+            .checklist-wrap {
+                padding-top: 0em;
+            }
+            .pricing {
+                padding: 35px 15px;
+                border: 2px solid transparent;
+            }
+            .pricing-head h3 {
+                font-size: 25px;
+            }
+            .form-field.v6{
+                justify-content: normal;
+            }
+            .input-field.v6 input{
+                width: 100%;
+            }
+            .form-field.v6 .submit-btn.v6 input{
+                margin: 0 !important;
+                width: 100%;
+            }
+            .footer-col1 p{
+                margin-top: 20px;
+            }
+            .footer-col2 ul, .footer-col3 ul, .footer-col4 ul, .footer-col5 ul{
+                margin-top: 8px;
+            }
+            .whychooseus-img{
+                margin-top: 25px;
+            }
+            section.seo-services.pad-tb-100, section.blok{
+                background: none;
+            }
+            .blog-slider{
+                padding: 0 20px !important;
+            }
+            .mobile-menu{
+                display: block !important;
+            }
+             .case-blog{
+                display: grid;
+            }
+            .cases-detail {
+                margin: 0px 0px 20px;
+            }
+            .swiper-wrapper .case {
+                padding: 50px 0px;
+            }
+            .contact-info{
+                padding-right: 0;
+            }
+            .contact-form.v3.main {
+                padding: 20px;
+            }
+            .contacts-detail {
+                display: grid;
+                padding: 20px;
+            }
+            .contact-num, .contact-email, .contact-address{
+                display: flex;
+                align-items: center;
+                margin: 0;
+                width: 100%;
+                border-right: 0;
+            }
+            .contact-data h4 {
+                font-size: 18px;
+            }
+            .contact-img img {
+                width: 55px;
+            }
+            .contact-data p {
+                font-size: 16px;
+            }
+            .aboutus.banner-details {
+                padding-top: 0;
+                padding-right: 0;
+            }
+            .about-us-image img {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 0;
+            }
+            .container-fluid.v2.color-bg.v3 {
+                padding: 30px;
+            }
+            .test-rate h1 {
+                font-size: 40px;
+            }
+            .report-details{
+                justify-content: normal;
+                width: 100%;
+                gap: 20px 0;
+                display: grid;
+                padding: 15px 5px 10px 5px !important;
+            }
+            .google-search, .leads{
+                width: 100%;
+            }
+            .counter-sec {
+                margin-left: 0;
+                max-width: 100%!important;
+            }
+            .blog-detail{
+                margin-top: 15px;
+            }
+            .cta-head.v2{
+                border-right: 0;
+            }
+            .packages-slider{
+                margin-top: 30px;
+            }
+            .packages .pack-btn{
+                margin-bottom: 50px;
+                margin-top: 10px;
+            }
+            .packages .container-fluid {
+                padding: 30px 15px 30px 15px !important;
+                width: 100% !important;
+            }
+            .packages .pricing{
+                margin-top: 0;
+            }
+            .accordion h3{
+                padding: 10px 30px 10px 10px;
+                font-size: 17px;
+            }
+            .accordion h3::after{
+                right: 6px;
+                top: 11%;
+                background: transparent;
+                padding: 0;
+            }
+            .accordion h3.active::after{
+                background: transparent;
+            }
+            .accordion-content p{
+                font-size: 15px;
+                padding-left: 12px;
+                border-left: 3px solid #66667f26;
+            }
+            section.why-choose-us{
+                padding-top: 60px !important;
+            }
+            section.contact-us{
+                padding-top: 70px;
+            }
+            .mySwiper.hero.contacts {
+                padding-top: 0;
+            }
+            .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+                bottom: -5px;
+            }
+            .angle-btn{
+                bottom: 12px;
+                left: 12px;
+            }
+            .angle-btn a i{
+                padding: 15px 17px;
+            }
+            .swiper-slide.review{
+                padding: 18px 12px;
+            }
+            .price-heading{
+                padding-bottom: 0;
+            }
+            .pack-head h4, .hiw-head h3{
+                font-size: 24px;
+            }
+            .pricing-head h2{
+                font-size: 28px;
+            }
+            .pricing-list ul li {
+                font-size: 15px !important;
+                line-height: 1.4 !important;
+                margin: 0 !important;
+            }
+            .single-workflow {
+                width: 100% !important;
+                padding: 0 15px !important;
+            }
+            .workflow-img-2 {
+                margin: 0 auto;
+                margin-bottom: 40px;
+            }
+            .workflow-sec h3 {
+                font-size: 20px;
+            }
+            .single-workflow p {
+                text-align: left;
+            }
+            .workflow-sec-container{
+                display: grid;
+                gap: 70px 0;
+                margin-top: 55px !important;
+            }
+            .single-workflow .workflow-img-2{
+                width: 100%;
+                height: auto;
+                margin-bottom: 70px;
+            }
+            .single-workflow .workflow-img-2::before, .single-workflow .workflow-img-2::after, .single-workflow .workflow-img-2 .workflow-number{
+                display: none;
+            }
+            .solution-sec-div {
+                padding: 30px 5px !important;
+            }
+            .tab-btnss{
+                display: grid;
+                gap: 32px 0;
+            }
+            .tab-btnss .tab-btn.v9 a {
+                padding: 15px 22px 15px 22px;
+                font-size: 14px;
+            }
+    
+            /* Custom CSS for sliding menu */
+            
+            body.menu-open {
+               /* Semi-transparent black background */
+              transition: background-color 0.3s ease; /* Smooth transition */
+            }
+            body.menu-open::before{
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 9;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+        
+            .menu ul {
+              list-style-type: none;
+              padding: 0;
+              margin-top: 50px; /* Space for the logo */
+            }
+            
+            .menu ul li {
+              padding: 8px 20px;
+            }
+            
+            .menu ul li a {
+              color: #000;
+              text-decoration: none;
+              display: block;
+              font-size: 16px !important;
+              font-weight: 400;
+            }
+            
+            .dropdown-menu a.dropdown-item{
+                padding: 0;
+                font-size: 14px !important;
+            }
+            .dropdown-menu a.dropdown-item > i{
+                color: #FF6348;
+            }
+            
+            /* Hamburger icon */
+            .hamburger {
+              font-size: 30px;
+              color: #000;
+              cursor: pointer;
+              z-index: 9; /* Make sure the hamburger is above the content */
+              text-align: center;
+            }
+            
+            /* Logo styles */
+            .logo {
+              width: 70%;
+            }
+            
+            .logo > img {
+              max-width: 150px;
+              height: auto;
+            }
+            
+            /* Styling for the top navbar */
+            .mobile-navbar {
+              padding: 15px;
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              z-index: 999;
+              background-color: transparent;
+              transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            }
+            
+            /* Navbar background-color when scrolled */
+            .mobile-navbar.scrolled {
+              background-color: white !important;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow when scrolled */
+            }
+            .menu ul{
+                margin-top: 5px;
+                box-shadow: none;
+            }
+            .menu ul li a{
+                border: 0;
+            }
+            
+            
+            
+            .single-workflow::before{
+                display: none;
+            }
+            .workflow-sec p{
+                padding: 0;
+            }
+            .strategy-tabs > ul{
+                display: flex !important;
+            }
+            .strategy-tabs > ul > li{
+                width: 100% !important;
+                text-align: center;
+            }
+            .strategy-tabs > ul > li > button{
+                padding: 0 6px;
+                margin: 0 auto;
+            }
+            #newsletter_form .input-field{
+                background: #fff !important;
+            }
+            
+            /*------------------------------ Audit Page Mobile CSS -----------------------------*/
+            .hide-mobile{
+                display: none;
+            }
+            .audit-banner-sec {
+                padding-top: 100px;
+                height: 60rem !important;
+            }
+            .gradediv > h2 {
+                width: 45% !important;
+            }
+            .circle-row .col{
+                width: 100% !important;
+            }
+            .meta-div {
+                padding: 20px 30px !important;
+            }
+            .heading-tab-table{
+                overflow-y: scroll;
+                display: flow;
+            }
+            .progress-flex{
+                display: grid !important;
+            }
+            .progress-container {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .metricsrow > div{
+                margin-bottom: 30px !important;
+            }
+            .mobile-padding{
+                padding: 20px 15px !important;
+            }
+            .heading-tab-table thead tr th {
+                padding: 12px 15px;
+            }
+            .margin-top-12-mobile{
+                margin-top: 12px;
+            }
+            .social-media-table-div table tr{
+                display: grid;
+                gap: 10px 0;
+                padding: 20px 0;
+            }
+            .social-media-table-div table tr th{
+                padding: 0 15px !important;
+            }
+            .audit-percent{
+                padding-top: 20px;
+                padding-left: 60px;
+            }
+            
+            
+            /*------------------------------ Error page CSS ---------------------------------*/
+            .errorsec h1{
+                font-size: 80px;
+            }
+            
+            
+            /*------------------------------- Thankyou Page CSS --------------------------------*/
+            .thankyou-sec h1{
+                font-size: 3.5rem;
+            }
+            .thankyou-sec p{
+                font-size: 1.3rem;
+            }
+            
+            
+            
+            /*------------------------------- Case Study Page CSS --------------------------------*/
+            .case-img > img, .case-details > img{
+                width: 100%;
+            }
+            .count h1 {
+                font-size: 25px;
+            }
+            .container-fluid.v2.bg {
+                padding: 45px 20px;
+            }
+            .count{
+                width: 100%;
+            }
+            .count p {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+            .case-count.v2{
+                display: grid;
+                gap: 10px 0;
+            }
+            .case-details {
+                padding-left: 0;
+            }
+            .case-study-btn a {
+                font-size: 16px;
+                padding: 15px 20px;
+            }
+            .case-study-single{
+                padding-top: 0;
+            }
+            .case-count-info {
+                padding: 30px 35px;
+            }
+            
+            
+            
+            
+            
+            
+            /*------------------------------ Blog Page CSS ---------------------------------*/  
+            .blog-banner > div {
+                left: 7%;
+            }
+            
+            /*------------------------------ Single Blog Page Mobile CSS -----------------------------*/
+            .singleblogimg > img{
+                height: auto;
+                object-fit: contain;
+            }
+            .singleblogbottomdiv img{
+                max-width: 220px;
+                margin-bottom: 20px;
+            }
+            .single-blog-content{
+                margin-top: 40px;
+                text-align: left;
+            }
+            .single-blog-content h2, .single-blog-content h3, .single-blog-content h4{
+                text-align: left !important;
+            }
+            .singleblogbottomdiv{
+                margin-top: 0 !important;
+            }
+            
+            
+            
+            /*------------------------------ Inner Page Mobile CSS ---------------------------------*/
+            .how-it-work-div{
+                height: auto;
+            }
+            .how-it-worksArea > ul {
+                overflow: auto hidden;
+            }
+            .inner-page-banner h1{
+                font-size: 30px;
+            }
+            .inner-page-banner {
+                height: 95vh;
+            }
+            .inner-banner-form .row{
+                gap: 20px 0;
+            }
+            .inner-banner-form .row div button{
+                width: 100%;
+                font-size: 18px;
+            }
+            .inner-page-banner .shortheading {
+                font-size: 14px;
+            }
+            .scroller-sticky {
+                padding: 0 0 20px;
+            }
+            .scroller-list > li > a{
+                opacity: 1;
+            }
+            .industries-slide .swiper-slide{
+                background: transparent;
+            }
+            
+            
+            
+            
+             /*------------------------------ Service Section CSS ---------------------------------*/
+             .service-innertab-row .nav-pills, .service-main-tabs > li:nth-child(2)::after, .service-main-tabs > li:nth-child(2)::before{
+                display: none;
+              }
+        
+              .select-tab {
+                width: 100%;
+              }
+              .service-innertab-row .nav-pills{
+                  display: none;
+              }
+              .service-innertab-row #tabDropdown{
+                display: block !important;
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 18px 20px;
+                background-color: #2cb69c;
+                border: 0;
+                border-radius: 30px;
+                font-size: 18px;
+                color: #fff;
+                font-weight: 600;
+              }
+              .service-main-div {
+                    padding: 40px 15px;
+                }
+                .inner-content-row{
+                    gap: 25px 0;
+                    padding-left: 0px;
+                }
+                .service-main-tabs{
+                    display: flex;
+                    gap: 0;
+                    padding: 15px 10px;
+                }
+                .service-main-tabs > li{
+                    width: 33.33333%;
+                }
+                .service-main-tabs li .nav-link{
+                    display: grid;
+                    font-size: 14px;
+                    text-align: center;
+                }
+                .service-main-tabs > li:nth-child(2){
+                    border: 0;
+                }
+                .service-main-tabs {
+                    width: 100%;
+                }
+                .service-main-tabs li a > img {
+                    max-width: 66px;
+                    padding: 15px;
+                    border-radius: 50%;
+                }
+                .inner-content-row .btn-div > a:nth-child(1), .inner-content-row .btn-div > a:nth-child(2){
+                    padding: .7rem 1.5rem !important;
+                }
+                .whychooseus-details{
+                    padding-right: 0;
+                }
+                .counters .container-fluid{
+                    padding: 75px 15px 20px !important;
+                    margin-top: -100px !important;
+                }
+                .verticle-bar{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0 15px;
+                    width: 133%;
+                    margin-bottom: 18px;
+                }
+                .bar-heading h6{
+                    margin-left: 0;
+                    width: 80%;
+                }
+                .verticle-bar .barsheading{
+                    flex: 1 1 50%;
+                }
+                .scroller-item ul > li::before{
+                    left: -10%;
+                }
+                
+                .footer_content > p{
+                    margin-bottom: 20px;
+                }
+                .footer_social_div .social-icons{
+                    text-align: center;
+                }
+                .footer_social_div ul {
+                    justify-content: center;
+                }
+                .footer_social_div p {
+                    text-align: center;
+                }
+                .footer_social_div{
+                    gap: 8px 0;
+                }
+                
+                
+                /*-------------------------------- Whole website new mobile CSS ----------------------------------*/
+                
+                .home-service-tab > li > a{
+                    width: 100% !important;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .tab-content .horizontal-accordion .card.choice > div{
+                    background: #fff;
+                    border: 2px solid #00B59C;
+                }
+                .tab-content .horizontal-accordion .card-header.active h3 > i{
+                    transform: rotate(0deg);
+                }
+                ul#pills-tab{
+                    border: 0;
+                }
+                .progress_bar {
+                    padding: 20px 20px 10px 20px;
+                }
+                .item_bar {
+                    width: 60%;
+                }
+                .counters .container-fluid.v2.color-bg{
+                    width: 94% !important;
+                }
+                .contact-form form .homeBannerInput input{
+                    padding: 15px 15px 15px 52px !important;
+                }
+                ul.pricing-nav_tabs .nav-link{
+                    width: 100%;
+                }
+                .pricing.v2{
+                    margin: 0;
+                }
+                .pricing-list {
+                    padding: 1rem 1.2rem !important;
+                }
+                .pricing-list ul li::after {
+                    width: 96% !important;
+                }
+                .pricing-list ul li {
+                    padding-right: 15px;
+                }
+                .innerpagefullbanner{
+                    padding: 140px 0 60px !important;
+                }
+                .innerpagefullbanner .banner-details p{
+                    margin-bottom: 0;
+                }
+                .pricing .pricing-list > ul {
+                    max-height: initial;
+                    overflow-y: auto;
+                }
+                .pricing .pricing-list > ul > li{
+                    display: flex;
+                    align-items: center;
+                }
+                .pricing .pricing-list > ul > li > img{
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                    top: 50%;
+                }
+                .scroller-item-title{
+                    font-weight: 600;
+                    font-size: 1.325rem;
+                    font-family: "Montserrat", serif;
+                    color: #000;
+                    margin-top: 42px;
+                }
+                .scroller-item-title > span{
+                    color: #ff7237;
+                }
+                section.new_bg_image{
+                    /*background: linear-gradient(180deg, rgb(14 183 160 / 15%) 78%, rgb(14 195 43 / 15%) 100%) !important;*/
+                    background: url('https://searchoptimax.com/wp-content/themes/searchoptimax/assets/images/banner-img3.webp') no-repeat center center !important;
+                }
+                .leads h1{
+                    margin-left: 0;
+                }
+                 .sectionSpace2 {
+                    padding: 2.5rem 0 !important;
+                }
+                .section-space {
+                    padding: 70px 0;
+                }
+                .new_footer .row > .footerdiv:nth-child(2), .new_footer .row > .footerdiv:nth-child(3){
+                    width: 50%;
+                }
+            }
+            
+            
+            
+            
+            
+            @media (max-width: 768px){
+                .howItWorkSection{
+                    padding: 4rem 0rem !important;
+                }
+                .services.about.section-space{
+                    padding-bottom: 2.5rem !important;
+                    padding-top: 2.5rem !important;
+                }
+                .scroller-sticky {
+                    padding: 0rem !important;
+                }
+                .paddingTopZeroMobile{
+                    padding-top: 0rem !important;   
+                }
+               
+            }
+            @media (max-width: 768px){
+                .services.about.section-space{
+                    padding-bottom: 2.5rem !important;
+                }
+                .scroller-sticky {
+                    padding: 0rem !important;
+                }
+                .paddingTopZeroMobile{
+                    padding-top: 0rem !important;   
+                }
+               
+            }
